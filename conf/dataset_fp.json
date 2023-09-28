@@ -1,0 +1,9 @@
+{
+    "computer_science": "computer_science.csv",
+    "computer_security": "computer_security.csv",
+    "machine_learning": "machine_learning.csv",
+    "college_programming": "college_programming.csv",
+    "computer_architecture": "computer_architecture.csv",
+    "computer_network": "computer_network.csv",
+    "tech_risk": "risk.csv"
+}

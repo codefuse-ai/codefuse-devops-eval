@@ -1,0 +1,26 @@
+{
+    "Qwen-7b-Base": {
+        "loader": "QwenModelAndTokenizerLoader",
+        "context_builder": "ContextBuilder"
+    },
+    "Qwen-7b-Chat": {
+        "loader": "QwenModelAndTokenizerLoader",
+        "context_builder": "QwenChatContextBuilder"
+    },
+    "Baichuan-13b-Base": {
+        "loader": "BaichuanModelAndTokenizerLoader",
+        "context_builder": "ContextBuilder"
+    },
+    "Baichuan2-13b-Chat": {
+        "loader": "BaichuanModelAndTokenizerLoader",
+        "context_builder": "Baichuan2ChatContextBuilder"
+    },
+    "Internlm-7b-Base": {
+        "loader": "ModelAndTokenizerLoader",
+        "context_builder": "ContextBuilder"
+    },
+    "Internlm-7b-Chat": {
+        "loader": "ModelAndTokenizerLoader",
+        "context_builder": "InternlmChatContextBuilder"
+    }
+}
