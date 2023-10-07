@@ -55,14 +55,6 @@ coming soon
 <br>
 <br>
 
-## Licenses
-
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
-本项目遵循 [MIT License](https://lbesson.mit-license.org/).
-
-<br>
-<br>
 
 ## 引用
 
