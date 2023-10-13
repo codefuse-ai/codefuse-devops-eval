@@ -1,6 +1,7 @@
 import torch
 import transformers
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
+from loguru import logger
 
 
 class ModelAndTokenizerLoader:
@@ -14,6 +15,8 @@ class ModelAndTokenizerLoader:
 
     def load_model(self, model_path: str):
         model =  AutoModelForCausalLM.from_pretrained(model_path, device_map="auto", trust_remote_code=True).eval()
+        # for name, param in model.named_parameters():
+        #     logger.debug('param_name={}, param.device={}'.format(name, param.device))
         return model
 
     def load_tokenizer(self, model_path: str):

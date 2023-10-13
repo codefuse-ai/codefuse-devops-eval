@@ -15,7 +15,7 @@ def evaluate(model, tokenizer, context_builder, all_dataset):
         for question in dataset:
             if do_verbose:
                 question['pred'] = get_pred(model, tokenizer, context_builder, question, do_verbose)
-                do_verbose = True
+                do_verbose = False
             else:
                 question['pred'] = get_pred(model, tokenizer, context_builder, question, do_verbose)
     return all_dataset_pred
@@ -35,8 +35,6 @@ def get_pred(model, tokenizer, context_builder, question: dict, verbose: bool = 
             option_dict[option] = encoded
         else:
             option_dict[option] = tokenizer._convert_token_to_id(option)
-            
-    logger.debug('option_dict={}'.format(option_dict))
 
     # build context
     raw_text, context_tokens = context_builder.make_context(model, tokenizer, query)

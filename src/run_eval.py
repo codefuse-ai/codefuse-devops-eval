@@ -19,7 +19,7 @@ def run_eval(args=None):
 
     # Get all dataset
     eval_datasets = load_all_dataset(eval_args)
-    logger.info('Load all dataset success')
+    logger.info('Load all dataset success, total question number={}'.format(sum(len(v) for v in eval_datasets.values())))
 
     # Load model and tokenizer
     model, tokenizer = load_model_and_tokenizer(eval_args)
@@ -35,7 +35,7 @@ def run_eval(args=None):
 
     # get metric
     score_dict = get_acc_score(all_pred)
-    logger.info('model_path={}\nk_shot={}\nEvaluation result={}'.format(eval_args.model_path, eval_args.k_shot, score_dict))
+    logger.info('model_path={} k_shot={} Evaluation result={}'.format(eval_args.model_path, eval_args.k_shot, score_dict))
 
     # save metric
 

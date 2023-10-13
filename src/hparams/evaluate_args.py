@@ -38,7 +38,7 @@ class EvaluateArguments:
     )
     k_shot: int = field(
         default = 0,
-        metadata={"help": "k-shot test, k should be in (0, 1,2,3,4,5)]"}
+        metadata={"help": "k-shot test, k should be in (0, 1,2,3,4,5)"}
     )
     seed: int = field(
         default = 100,
