@@ -1,1 +1,12 @@
 **/__pycache__
+.DS_Store
+data/
+.pyc
+__pycache__
+start_job.py
+start_job2.py
+start_job3.py
+run_eval.sh
+run_eval2.sh
+run_eval3.sh
+dataset_fp_tech_risk.json
