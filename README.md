@@ -105,7 +105,7 @@ If you need to test your own huggingface-formatted model, the overall steps are 
 4. Run the testing script.
 If the model does not require any special processing after loading, and the input does not need to be converted to a specific format (e.g. chatml format or other human-bot formats), you can directly proceed to step 4 to initiate the testing.
 
-#### 1.Write the loader function
+#### 1. Write the loader function
 If the model requires additional processing after loading (e.g. adjusting the tokenizer), you need to inherit the `ModelAndTokenizerLoader` class in `src.context_builder.context_builder_family.py` and override the corresponding `load_model` and `load_tokenizer` functions. You can refer to the following example:
 ```python
 class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
@@ -129,7 +129,7 @@ class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
         return tokenizer
 ```
 
-#### 2.Write the context_builder function for the Model
+#### 2. Write the context_builder function for the Model
 If the input needs to be converted to a specific format (e.g. chatml format or other human-bot formats), you need to inherit the ContextBuilder class in `src.context_builder.context_builder_family` and override the make_context function. This function is used to convert the input to the corresponding required format. An example is shown below:
 ```python
 class QwenChatContextBuilder(ContextBuilder):
@@ -143,12 +143,12 @@ class QwenChatContextBuilder(ContextBuilder):
         query: str,
         system: str = "you are a helpful assistant"
     ):
-      '''
-  model: PretrainedModel
-  tokenizer: PretrainedTokenzier
-  query: Input string
-  system: System prompt if needed
-  '''
+        '''
+        model: PretrainedModel
+        tokenizer: PretrainedTokenzier
+        query: Input string
+        system: System prompt if needed
+        '''
         im_start, im_end = "<|im_start|>", "<|im_end|>"
         im_start_tokens = [tokenizer.im_start_id]
         im_end_tokens = [tokenizer.im_end_id]
@@ -181,7 +181,7 @@ class QwenChatContextBuilder(ContextBuilder):
         return raw_text, context_tokens
 ```
 
-#### 3.Register the model in the configuration file
+#### 3. Register the model in the configuration file
 Go to the `model_conf.json` file in the conf directory and register the corresponding model name and the loader and context_builder that will be used for this model. Simply write the class names defined in the first and second steps for the loader and context_builder. Here is an example:
 ```json
 {
@@ -192,7 +192,7 @@ Go to the `model_conf.json` file in the conf directory and register the correspo
 }
 ```
 
-#### 4.Execute the testing script
+#### 4. Execute the testing script
 Run the following code to initiate the test:
 ```Bash
 # model_path: path to the model for testing
@@ -227,7 +227,6 @@ python folder2/src/run_eval.py \
 --data_path folder2 \
 --k_shot 0
 ```
-<br>
 <br>
 
 ## TODO

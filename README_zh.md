@@ -102,7 +102,7 @@ git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改�
 4. 执行测试脚本
 如果模型在加载进来后不需要特殊的处理，而且输入也不需要转换为特定的格式（e.g. chatml 格式或者其他的 human-bot 格式），请直接跳转到第四步直接发起测试。
 
-#### 1.编写 loader 函数
+#### 1. 编写 loader 函数
 如果模型在加载进来还需要做一些额外的处理（e.g. tokenizer 调整），需要去 `src.context_builder.context_builder_family.py` 中继承 `ModelAndTokenizerLoader` 类来覆写对应的 `load_model` 和 `load_tokenizer` 函数，具体可以参照以下示例：
 ```python
 class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
@@ -126,7 +126,7 @@ class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
         return tokenizer
 ```
 
-#### 2.编写 Model 的 context_builder 函数
+#### 2. 编写 Model 的 context_builder 函数
 如果输入需要转换为特定的格式（e.g. chatml 格式或者其他的 human-bot 格式），则需要去 `src.context_builder.context_builder_family` 中继承 ContextBuilder 类来覆写 make_context 函数，这个函数是用来将输入转换格式为对应需要的输出的，一个示例如下：
 ```python
 class QwenChatContextBuilder(ContextBuilder):
@@ -178,7 +178,7 @@ class QwenChatContextBuilder(ContextBuilder):
         return raw_text, context_tokens
 ```
 
-#### 3.注册模型到配置文件中
+#### 3. 注册模型到配置文件中
 去 conf 中的 `model_conf.json`，注册对应的模型名和这个模型将要使用的 loader 和 context_builder，其中 loader 和 context_builder 写第一步和第二步中自定义的类名就可以，示例如下：
 ```json
 {
@@ -190,7 +190,7 @@ class QwenChatContextBuilder(ContextBuilder):
 ```
 
 
-#### 4.执行测试脚本
+#### 4. 执行测试脚本
 直接运行以下代码发起测试
 ```Bash
 # model_path: 要测试的模型路径
@@ -226,7 +226,6 @@ python folder2/src/run_eval.py \
 --data_path folder2 \
 --k_shot 0
 ```
-<br>
 <br>
 
 ## TODO
