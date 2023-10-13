@@ -109,24 +109,24 @@ If the model does not require any special processing after loading, and the inpu
 If the model requires additional processing after loading (e.g. adjusting the tokenizer), you need to inherit the `ModelAndTokenizerLoader` class in `src.context_builder.context_builder_family.py` and override the corresponding `load_model` and `load_tokenizer` functions. You can refer to the following example:
 ```python
 class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
-  def __init__(self):
-    super().__init__()
-    pass
+    def __init__(self):
+      super().__init__()
+      pass
     
-  def load_model(self, model_path: str):
-    model = super().load_model(model_path)
-    model.generation_config = GenerationConfig.from_pretrained(model_path)
-    return model
+    def load_model(self, model_path: str):
+        model = super().load_model(model_path)
+        model.generation_config = GenerationConfig.from_pretrained(model_path)
+        return model
 
-  def load_tokenizer(self, model_path: str):
-    tokenizer = super().load_tokenizer(model_path)
-
-    # read generation config
-    with open(model_path + '/generation_config.json', 'r') as f:
-    generation_config = json.load(f)
-    tokenizer.pad_token_id = generation_config['pad_token_id']
-    tokenizer.eos_token_id = generation_config['eos_token_id']
-    return tokenizer
+    def load_tokenizer(self, model_path: str):
+        tokenizer = super().load_tokenizer(model_path)
+    
+        # read generation config
+        with open(model_path + '/generation_config.json', 'r') as f:
+        generation_config = json.load(f)
+        tokenizer.pad_token_id = generation_config['pad_token_id']
+        tokenizer.eos_token_id = generation_config['eos_token_id']
+        return tokenizer
 ```
 
 #### 2.Write the context_builder function for the Model
@@ -185,7 +185,7 @@ class QwenChatContextBuilder(ContextBuilder):
 Go to the `model_conf.json` file in the conf directory and register the corresponding model name and the loader and context_builder that will be used for this model. Simply write the class names defined in the first and second steps for the loader and context_builder. Here is an example:
 ```json
 {
-"Qwen-Chat": {
+  "Qwen-Chat": {
   "loader": "QwenModelAndTokenizerLoader",
   "context_builder": "QwenChatContextBuilder"
   }

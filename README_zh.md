@@ -106,24 +106,24 @@ git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改�
 如果模型在加载进来还需要做一些额外的处理（e.g. tokenizer 调整），需要去 `src.context_builder.context_builder_family.py` 中继承 `ModelAndTokenizerLoader` 类来覆写对应的 `load_model` 和 `load_tokenizer` 函数，具体可以参照以下示例：
 ```python
 class QwenModelAndTokenizerLoader(ModelAndTokenizerLoader):
-  def __init__(self):
-    super().__init__()
-    pass
+    def __init__(self):
+        super().__init__()
+        pass
+      
+    def load_model(self, model_path: str):
+        model = super().load_model(model_path)
+        model.generation_config = GenerationConfig.from_pretrained(model_path)
+        return model
     
-  def load_model(self, model_path: str):
-    model = super().load_model(model_path)
-    model.generation_config = GenerationConfig.from_pretrained(model_path)
-    return model
-
-  def load_tokenizer(self, model_path: str):
-    tokenizer = super().load_tokenizer(model_path)
-
-    # read generation config
-    with open(model_path + '/generation_config.json', 'r') as f:
-    generation_config = json.load(f)
-    tokenizer.pad_token_id = generation_config['pad_token_id']
-    tokenizer.eos_token_id = generation_config['eos_token_id']
-    return tokenizer
+    def load_tokenizer(self, model_path: str):
+        tokenizer = super().load_tokenizer(model_path)
+    
+        # read generation config
+        with open(model_path + '/generation_config.json', 'r') as f:
+        generation_config = json.load(f)
+        tokenizer.pad_token_id = generation_config['pad_token_id']
+        tokenizer.eos_token_id = generation_config['eos_token_id']
+        return tokenizer
 ```
 
 #### 2.编写 Model 的 context_builder 函数
@@ -182,7 +182,7 @@ class QwenChatContextBuilder(ContextBuilder):
 去 conf 中的 `model_conf.json`，注册对应的模型名和这个模型将要使用的 loader 和 context_builder，其中 loader 和 context_builder 写第一步和第二步中自定义的类名就可以，示例如下：
 ```json
 {
-"Qwen-Chat": {
+  "Qwen-Chat": {
   "loader": "QwenModelAndTokenizerLoader",
   "context_builder": "QwenChatContextBuilder"
   }
