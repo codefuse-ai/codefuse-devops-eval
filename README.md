@@ -70,22 +70,24 @@ To facilitate usage, we have organized the category name handlers and English/Ch
   "UnitTesting.csv": [
     "unit testing",
     "单元测试",
+    {"dev": 5, "test": 32}
     "TEST"
   ],
   ...
   "file_name":[
   "English Name",
   "Chinese Name",
+  "Sample Number",
   "Supercatagory Label(PLAN,CODE,BUILD,TEST,RELEASE,DEPOLY,OPERATE,MONITOR choose 1 out of 8)"
   ]
 }
 ```
 Each subject consists of two splits: dev and test.  The dev set per subject consists of five exemplars with explanations for few-shot evaluation. And the test set is for model evaluation. Labels on the test split are also released.
 
-Below is a dev example from version control:
+Below is a dev example from 'version control':
 
 ```
-id: 1
+id: 4
 question: 如何找到Git特定提交中已更改的文件列表？
 A: 使用命令 `git diff --name-only SHA`
 B: 使用命令 `git log --name-only SHA`

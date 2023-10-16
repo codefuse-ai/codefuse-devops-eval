@@ -70,12 +70,14 @@ coming soon
   "UnitTesting.csv": [
     "unit testing",
     "单元测试",
+    {"dev": 5, "test": 32}
     "TEST"
   ],
   ...
   "file_name":[
   "英文名称",
   "中文名称",
+  "样本数量",
   "类别(PLAN,CODE,BUILD,TEST,RELEASE,DEPOLY,OPERATE,MONITOR八选一)"
   ]
 }
@@ -84,7 +86,7 @@ coming soon
 
 下面是 dev 数据的示例，来自"版本控制"细分类别：
 ```
-id: 1
+id: 4
 question: 如何找到Git特定提交中已更改的文件列表？
 A: 使用命令 `git diff --name-only SHA`
 B: 使用命令 `git log --name-only SHA`
