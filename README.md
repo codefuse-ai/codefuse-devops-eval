@@ -76,7 +76,7 @@ To facilitate usage, we have organized the category name handlers and English/Ch
   "file_name":[
   "English Name",
   "Chinese Name",
-  "Supercatagory Label(PLAN,CODE,BUILD,TEST,RELEASE,DEPOLY,OPERATE,MONITOR八选一)"
+  "Supercatagory Label(PLAN,CODE,BUILD,TEST,RELEASE,DEPOLY,OPERATE,MONITOR choose 1 out of 8)"
   ]
 }
 ```
