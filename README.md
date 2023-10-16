@@ -63,7 +63,7 @@ coming soon
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### Notes
-To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to XXX categories. Please refer to [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/category_mapping.json) for details. The format is:
+To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/category_mapping.json) for details. The format is:
 
 ```
 {
