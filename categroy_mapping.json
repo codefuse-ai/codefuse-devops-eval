@@ -1,198 +1,443 @@
 {
-	"Visualization.csv": ["visualization", "可视化", {
-		"dev": 5,
-		"test": 44
-	}, "MONITOR"],
-	"Logging.csv": ["logging", "日志", {
-		"dev": 5,
-		"test": 100
-	}, "MONITOR"],
-	"Storage.csv": ["storage", "存储", {
-		"dev": 5,
-		"test": 36
-	}, "MONITOR"],
-	"DataAcquisition.csv": ["data acquisition", "数据采集", {
-		"dev": 5,
-		"test": 36
-	}, "MONITOR"],
-	"IntegrationTesting.csv": ["integration testing", "集成测试", {
-		"dev": 5,
-		"test": 31
-	}, "TEST"],
-	"UserAcceptanceTesting.csv": ["user acceptance testing", "用户验收测试", {
-		"dev": 5,
-		"test": 39
-	}, "TEST"],
-	"SecurityTesting.csv": ["security testing", "安全测试", {
-		"dev": 5,
-		"test": 38
-	}, "TEST"],
-	"UnitTesting.csv": ["unit testing", "单元测试", {
-		"dev": 5,
-		"test": 32
-	}, "TEST"],
-	"PerformanceTesting.csv": ["performance testing", "性能测试", {
-		"dev": 5,
-		"test": 36
-	}, "TEST"],
-	"SystemTesting.csv": ["system testing", "系统测试", {
-		"dev": 5,
-		"test": 52
-	}, "TEST"],
-	"ProgM.csv": ["programme management", "进度管理", {
-		"dev": 5,
-		"test": 21
-	}, "PLAN"],
-	"REQM.csv": ["requirements management", "需求管理", {
-		"dev": 5,
-		"test": 24
-	}, "PLAN"],
-	"RiskMgmt.csv": ["risk management", "风险管理", {
-		"dev": 5,
-		"test": 21
-	}, "PLAN"],
-	"InfrastructureAsCode.csv": ["infrastructure as code", "基础设施即代码", {
-		"dev": 5,
-		"test": 34
-	}, "DEPLOY"],
-	"Provisioning.csv": ["provisioning", "置备", {
-		"dev": 5,
-		"test": 19
-	}, "DEPLOY"],
-	"ConfigMgmt.csv": ["config management", "配置管理", {
-		"dev": 5,
-		"test": 100
-	}, "DEPLOY"],
-	"Azure.csv": ["microsoft azure", "微软云服务", {
-		"dev": 5,
-		"test": 27
-	}, "DEPLOY"],
-	"GoogleCloud.csv": ["google cloud", "谷歌云服务", {
-		"dev": 5,
-		"test": 31
-	}, "DEPLOY"],
-	"AWS.csv": ["amazon web services", "亚马逊云服务", {
-		"dev": 5,
-		"test": 44
-	}, "DEPLOY"],
-	"LogDesign.csv": ["log design", "日志设计", {
-		"dev": 5,
-		"test": 33
-	}, "CODE"],
-	"ServiceDesign.csv": ["service design", "服务设计", {
-		"dev": 5,
-		"test": 44
-	}, "CODE"],
-	"CapabilityDesign.csv": ["capability design", "容量设计", {
-		"dev": 5,
-		"test": 33
-	}, "CODE"],
-	"CloudNativeDesign.csv": ["cloud native design", "云原生设计", {
-		"dev": 5,
-		"test": 44
-	}, "CODE"],
-	"CacheDesign.csv": ["cache design", "缓存设计", {
-		"dev": 5,
-		"test": 28
-	}, "CODE"],
-	"DBDesign.csv": ["database design", "数据库设计", {
-		"dev": 5,
-		"test": 38
-	}, "CODE"],
-	"ArtificialIntelligence.csv": ["artificial intelligence", "人工智能", {
-		"dev": 5,
-		"test": 45
-	}, "CODE"],
-	"ComputerBasics.csv": ["computer basics", "计算机基础", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"DataBase.csv": ["database", "数据库", {
-		"dev": 5,
-		"test": 75
-	}, "CODE"],
-	"ComputerNetwork.csv": ["computer network", "计算机网络", {
-		"dev": 5,
-		"test": 88
-	}, "CODE"],
-	"OperatingSystem.csv": ["operating system", "操作系统", {
-		"dev": 5,
-		"test": 36
-	}, "CODE"],
-	"Go.csv": ["go", "go语言", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"Java.csv": ["java", "java语言", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"C:C++.csv": ["c/c++", "c/c++语言", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"Python.csv": ["python", "python语言", {
-		"dev": 5,
-		"test": 73
-	}, "CODE"],
-	"BigData.csv": ["big data", "大数据", {
-		"dev": 5,
-		"test": 15
-	}, "CODE"],
-	"Front-end.csv": ["front-end", "前端", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"MobileApp.csv": ["mobile app", "移动应用", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"MachineLearning.csv": ["machine learning", "机器学习", {
-		"dev": 5,
-		"test": 69
-	}, "CODE"],
-	"Back-end.csv": ["back-end", "后端", {
-		"dev": 5,
-		"test": 100
-	}, "CODE"],
-	"ArtifactMgmt.csv": ["artifact management", "产出物管理", {
-		"dev": 5,
-		"test": 12
-	}, "RELEASE"],
-	"CI:CD.csv": ["cd/cd", "持续集成/持续部署", {
-		"dev": 5,
-		"test": 100
-	}, "RELEASE"],
-	"Linux.csv": ["linux", "linux操作系统", {
-		"dev": 5,
-		"test": 100
-	}, "RELEASE"],
-	"ContainerOrchestration.csv": ["container orchestration", "容器编排", {
-		"dev": 5,
-		"test": 100
-	}, "OPERATE"],
-	"Virtualization.csv": ["virtualization", "虚拟化技术", {
-		"dev": 5,
-		"test": 34
-	}, "OPERATE"],
-	"VersionControl.csv": ["version control", "版本控制", {
-		"dev": 5,
-		"test": 100
-	}, "BUILD"],
-	"DBMgnt.csv": ["database management", "数据库管理", {
-		"dev": 5,
-		"test": 19
-	}, "BUILD"],
-	"Dependency.csv": ["dependency", "依赖管理", {
-		"dev": 5,
-		"test": 44
-	}, "BUILD"],
-	"Compile.csv": ["compile", "编译", {
-		"dev": 5,
-		"test": 31
-	}, "BUILD"],
-	"Package.csv": ["package", "包管理", {
-		"dev": 5,
-		"test": 24
-	}, "BUILD"]
+    "Visualization.csv":[
+        "visualization",
+        "可视化",
+        {
+            "dev":5,
+            "test":44
+        },
+        "MONITOR"
+    ],
+    "Logging.csv":[
+        "logging",
+        "日志",
+        {
+            "dev":5,
+            "test":100
+        },
+        "MONITOR"
+    ],
+    "Storage.csv":[
+        "storage",
+        "存储",
+        {
+            "dev":5,
+            "test":36
+        },
+        "MONITOR"
+    ],
+    "DataAcquisition.csv":[
+        "data acquisition",
+        "数据采集",
+        {
+            "dev":5,
+            "test":36
+        },
+        "MONITOR"
+    ],
+    "IntegrationTesting.csv":[
+        "integration testing",
+        "集成测试",
+        {
+            "dev":5,
+            "test":31
+        },
+        "TEST"
+    ],
+    "UserAcceptanceTesting.csv":[
+        "user acceptance testing",
+        "用户验收测试",
+        {
+            "dev":5,
+            "test":39
+        },
+        "TEST"
+    ],
+    "SecurityTesting.csv":[
+        "security testing",
+        "安全测试",
+        {
+            "dev":5,
+            "test":38
+        },
+        "TEST"
+    ],
+    "UnitTesting.csv":[
+        "unit testing",
+        "单元测试",
+        {
+            "dev":5,
+            "test":32
+        },
+        "TEST"
+    ],
+    "PerformanceTesting.csv":[
+        "performance testing",
+        "性能测试",
+        {
+            "dev":5,
+            "test":36
+        },
+        "TEST"
+    ],
+    "SystemTesting.csv":[
+        "system testing",
+        "系统测试",
+        {
+            "dev":5,
+            "test":52
+        },
+        "TEST"
+    ],
+    "ProgM.csv":[
+        "programme management",
+        "进度管理",
+        {
+            "dev":5,
+            "test":21
+        },
+        "PLAN"
+    ],
+    "REQM.csv":[
+        "requirements management",
+        "需求管理",
+        {
+            "dev":5,
+            "test":24
+        },
+        "PLAN"
+    ],
+    "RiskMgmt.csv":[
+        "risk management",
+        "风险管理",
+        {
+            "dev":5,
+            "test":21
+        },
+        "PLAN"
+    ],
+    "InfrastructureAsCode.csv":[
+        "infrastructure as code",
+        "基础设施即代码",
+        {
+            "dev":5,
+            "test":34
+        },
+        "DEPLOY"
+    ],
+    "Provisioning.csv":[
+        "provisioning",
+        "置备",
+        {
+            "dev":5,
+            "test":19
+        },
+        "DEPLOY"
+    ],
+    "ConfigMgmt.csv":[
+        "config management",
+        "配置管理",
+        {
+            "dev":5,
+            "test":100
+        },
+        "DEPLOY"
+    ],
+    "Azure.csv":[
+        "microsoft azure",
+        "微软云服务",
+        {
+            "dev":5,
+            "test":27
+        },
+        "DEPLOY"
+    ],
+    "GoogleCloud.csv":[
+        "google cloud",
+        "谷歌云服务",
+        {
+            "dev":5,
+            "test":31
+        },
+        "DEPLOY"
+    ],
+    "AWS.csv":[
+        "amazon web services",
+        "亚马逊云服务",
+        {
+            "dev":5,
+            "test":44
+        },
+        "DEPLOY"
+    ],
+    "LogDesign.csv":[
+        "log design",
+        "日志设计",
+        {
+            "dev":5,
+            "test":33
+        },
+        "CODE"
+    ],
+    "ServiceDesign.csv":[
+        "service design",
+        "服务设计",
+        {
+            "dev":5,
+            "test":44
+        },
+        "CODE"
+    ],
+    "CapabilityDesign.csv":[
+        "capability design",
+        "容量设计",
+        {
+            "dev":5,
+            "test":33
+        },
+        "CODE"
+    ],
+    "CloudNativeDesign.csv":[
+        "cloud native design",
+        "云原生设计",
+        {
+            "dev":5,
+            "test":44
+        },
+        "CODE"
+    ],
+    "CacheDesign.csv":[
+        "cache design",
+        "缓存设计",
+        {
+            "dev":5,
+            "test":28
+        },
+        "CODE"
+    ],
+    "DBDesign.csv":[
+        "database design",
+        "数据库设计",
+        {
+            "dev":5,
+            "test":38
+        },
+        "CODE"
+    ],
+    "ArtificialIntelligence.csv":[
+        "artificial intelligence",
+        "人工智能",
+        {
+            "dev":5,
+            "test":45
+        },
+        "CODE"
+    ],
+    "ComputerBasics.csv":[
+        "computer basics",
+        "计算机基础",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "DataBase.csv":[
+        "database",
+        "数据库",
+        {
+            "dev":5,
+            "test":75
+        },
+        "CODE"
+    ],
+    "ComputerNetwork.csv":[
+        "computer network",
+        "计算机网络",
+        {
+            "dev":5,
+            "test":88
+        },
+        "CODE"
+    ],
+    "OperatingSystem.csv":[
+        "operating system",
+        "操作系统",
+        {
+            "dev":5,
+            "test":36
+        },
+        "CODE"
+    ],
+    "Go.csv":[
+        "go",
+        "go语言",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "Java.csv":[
+        "java",
+        "java语言",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "C:C++.csv":[
+        "c/c++",
+        "c/c++语言",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "Python.csv":[
+        "python",
+        "python语言",
+        {
+            "dev":5,
+            "test":73
+        },
+        "CODE"
+    ],
+    "BigData.csv":[
+        "big data",
+        "大数据",
+        {
+            "dev":5,
+            "test":15
+        },
+        "CODE"
+    ],
+    "Front-end.csv":[
+        "front-end",
+        "前端",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "MobileApp.csv":[
+        "mobile app",
+        "移动应用",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "MachineLearning.csv":[
+        "machine learning",
+        "机器学习",
+        {
+            "dev":5,
+            "test":69
+        },
+        "CODE"
+    ],
+    "Back-end.csv":[
+        "back-end",
+        "后端",
+        {
+            "dev":5,
+            "test":100
+        },
+        "CODE"
+    ],
+    "ArtifactMgmt.csv":[
+        "artifact management",
+        "产出物管理",
+        {
+            "dev":5,
+            "test":12
+        },
+        "RELEASE"
+    ],
+    "CI:CD.csv":[
+        "cd/cd",
+        "持续集成/持续部署",
+        {
+            "dev":5,
+            "test":100
+        },
+        "RELEASE"
+    ],
+    "Linux.csv":[
+        "linux",
+        "linux操作系统",
+        {
+            "dev":5,
+            "test":100
+        },
+        "RELEASE"
+    ],
+    "ContainerOrchestration.csv":[
+        "container orchestration",
+        "容器编排",
+        {
+            "dev":5,
+            "test":100
+        },
+        "OPERATE"
+    ],
+    "Virtualization.csv":[
+        "virtualization",
+        "虚拟化技术",
+        {
+            "dev":5,
+            "test":34
+        },
+        "OPERATE"
+    ],
+    "VersionControl.csv":[
+        "version control",
+        "版本控制",
+        {
+            "dev":5,
+            "test":100
+        },
+        "BUILD"
+    ],
+    "DBMgnt.csv":[
+        "database management",
+        "数据库管理",
+        {
+            "dev":5,
+            "test":19
+        },
+        "BUILD"
+    ],
+    "Dependency.csv":[
+        "dependency",
+        "依赖管理",
+        {
+            "dev":5,
+            "test":44
+        },
+        "BUILD"
+    ],
+    "Compile.csv":[
+        "compile",
+        "编译",
+        {
+            "dev":5,
+            "test":31
+        },
+        "BUILD"
+    ],
+    "Package.csv":[
+        "package",
+        "包管理",
+        {
+            "dev":5,
+            "test":24
+        },
+        "BUILD"
+    ]
 }
