@@ -21,116 +21,116 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 <center>
 <table style="width: 100%; height: 100%;">
   <tr>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/jama.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">REQM</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">REQM</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/pivotal-tracker.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">ProgM</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">ProgM</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/design.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 3px;">Design</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">Design</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/spark.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">Frameworks</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">Frameworks</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/git.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 3px;">SCM/VCS</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">SCM/VCS</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/packer.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">PackageMgnt</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">PackageMgnt</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/Junit.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">UnitTesting</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">UnitTesting</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/selenium.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">IntegrationTesting</span></a></td>
+    <br /><span style="font-size: 8px;">IntegrationTesting</span></a></td>
 
   </tr>
   <tr>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/risk.png"  width="50px;" height="50px;" alt="PLAN" />=
-    <br /><span style="font-size: 3px;">RiskMgnt</span></a></td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
+            <img src="images/icon/risk.png"  width="50px;" height="50px;" alt="PLAN" />
+    <br /><span style="font-size: 8px;">RiskMgnt</span></a></td>
+    <td align="center"> </td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/programming.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 3px;">General</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">General</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/python.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 3px;">Programming</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">Programming</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/databases.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">DBMgmt</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">DBMgmt</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/maven.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">DependencyMgnt</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">DepMgmt</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/system_testing.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">SystemTesting</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">SystemTesting</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
                 <img src="images/icon/uat.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">UAT</span></a></td>
+    <br /><span style="font-size: 8px;">UAT</span></a></td>
   </tr>
   <tr>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/vscode.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">Compile</span></a></td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">Compile</span></a></td>
+    <td align="center"> </td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/jmeter.svg"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">PT</span></a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><span style="font-size: 8px;">PT</span></a></td>
+    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/security.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 3px;">SecurityTesting</span></a></td>
+    <br /><span style="font-size: 8px;">SecurityTesting</span></a></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <b>PLAN</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <b>CODE</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <b>BUILD</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
+    <b><span style="font-size: 10px;">PLAN</span></b></a></td>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
+    <b><span style="font-size: 10px;">CODE</span></b></a></td>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
+    <b><span style="font-size: 10px;">BUILD</span></b></a></td>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
     <b><span style="font-size: 10px;">TEST</span></b></a></td>
   </tr>
 
 [//]: # (  <tr>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/Junit.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />UnitTesting</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/selenium.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />IntegrationTesting</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/cicd.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />CI/CD</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/docker.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />ArtifactsMgmt</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/ansible.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />ConfigMgmt</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/terraform.png"  width="50px;" height="50px;" alt="PLAN" />)
 
@@ -140,33 +140,33 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 
 [//]: # (  <tr>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/system_testing.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />SystemTesting</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (                <img src="images/icon/uat.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />UAT</a></td>)
 
-[//]: # (<td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (<td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/linux.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Linux</a></td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/cloud.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Cloud</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/infrastructure_as_code.svg"  width="50px;" height="50px;" alt="PLAN" />)
 
@@ -176,25 +176,25 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 
 [//]: # (  <tr>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/jmeter.svg"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />PT</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/security.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />SecurityTesting</a></td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
 [//]: # ()
 [//]: # (  </tr>)
@@ -218,61 +218,61 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 [//]: # ()
 [//]: # (  <tr>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/kubernetes.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Containerization</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/virtualization.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Virtualization</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/logging.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Data</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (                <img src="images/icon/prometheus.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Alert</a></td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
 [//]: # (  </tr>)
 
 [//]: # (  <tr>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/chaos_engineering.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />OperateSecne</a></td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/grafana.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Visualization</a></td>)
 
-[//]: # (    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">)
+[//]: # (    <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">)
 
 [//]: # (            <img src="images/icon/observability.png"  width="50px;" height="50px;" alt="PLAN" />)
 
 [//]: # (    <br />Analysis</a></td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
-[//]: # (    <td align="center" width="60px;"> </td>)
+[//]: # (    <td align="center"> </td>)
 
 [//]: # (  </tr>)
 
