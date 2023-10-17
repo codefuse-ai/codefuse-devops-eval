@@ -34,12 +34,6 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/packer.png" width="50px;" height="50px;" alt="PLAN" />
     <br />PackageMgnt</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/Junit.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />UnitTesting</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/selenium.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />IntegrationTesting</a></td>
   </tr>
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
@@ -48,7 +42,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
         <img src="images/icon/programming.png" width="50px;" height="50px;" alt="PLAN" /> 
-    <br />General</a></td>
+    <br />GeneralKnowledge</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
         <img src="images/icon/python.png" width="50px;" height="50px;" alt="PLAN" /> 
     <br />Programming</a></td>
@@ -56,14 +50,8 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
             <img src="images/icon/vscode.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Compile</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/databases.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />DBMgmt</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/system_testing.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />SystemTesting</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-                <img src="images/icon/UAT.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />UserAcceptanceTesting</a></td>
+            <img src="images/icon/maven.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />DependencyMgnt</a></td>
   </tr>
   <tr>
     <td align="center" width="60px;"> </td>
@@ -71,15 +59,9 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/maven.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />DependencyMgnt</a></td>
+            <img src="images/icon/databases.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />DBMgmt</a></td>
     <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/jmeter.svg" width="50px;" height="50px;" alt="PLAN" />
-    <br />PerformanceTesting</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/security.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />SecurityTesting</a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
@@ -88,11 +70,14 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><b>CODE</b></a></td>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
     <br /><b>BUILD</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <br /><b>TEST</b></a></td>
   </tr>
-
   <tr>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/Junit.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />UnitTesting</a></td>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/selenium.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />IntegrationTesting</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/cicd.png" width="50px;" height="50px;" alt="PLAN" />
     <br />CI/CD</a></td>
@@ -105,6 +90,46 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/terraform.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Provisioning</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/system_testing.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />SystemTesting</a></td>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+                <img src="images/icon/UAT.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />UserAcceptanceTesting</a></td>
+<td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/linux.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />Linux</a></td>
+    <td align="center" width="60px;"> </td>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/cloud.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />Cloud/IaaS/PaaS</a></td>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/infrastructure_as_code.svg" width="50px;" height="50px;" alt="PLAN" />
+    <br />IAC</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/jmeter.svg" width="50px;" height="50px;" alt="PLAN" />
+    <br />PerformanceTesting</a></td>
+    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+            <img src="images/icon/security.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />SecurityTesting</a></td>
+    <td align="center" width="60px;"> </td>
+    <td align="center" width="60px;"> </td>
+    <td align="center" width="60px;"> </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><b>TEST</b></a></td>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><b>RELEASE</b></a></td>
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
+    <br /><b>DEPLOY</b></a></td>
+  </tr>
+
+  <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/kubernetes.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Containerization</a></td>
@@ -120,16 +145,6 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   </tr>
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/linux.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />Linux</a></td>
-    <td align="center" width="60px;"> </td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/cloud.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />Cloud/IaaS/PaaS</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/infrastructure_as_code.svg" width="50px;" height="50px;" alt="PLAN" />
-    <br />IAC</a></td>
-    <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/chaos_engineering.png" width="50px;" height="50px;" alt="PLAN" />
     <br />OperateSecne</a></td>
     <td align="center" width="60px;"> </td>
@@ -142,14 +157,9 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   </tr>
   <tr>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <br /><b>RELEASE</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-    <br /><b>DEPLOY</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
     <br /><b>OPERATE</b></a></td>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
     <br /><b>MONITOR</b></a></td>
-
   </tr>
 </table>
 </center>
