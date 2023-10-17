@@ -112,7 +112,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 70%;">
             <img src="images/icon/jmeter.svg" width="60px;" height="60px;" alt="PLAN" />
-    <br />PerformanceTesting</a></td>
+    <br />PT</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 70%;">
             <img src="images/icon/security.png" width="60px;" height="60px;" alt="PLAN" />
     <br />SecurityTesting</a></td>
