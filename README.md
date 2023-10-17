@@ -96,7 +96,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
             <img src="images/icon/system_testing.png" width="50px;" height="50px;" alt="PLAN" />
     <br />SystemTesting</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-                <img src="images/icon/UAT.png" width="50px;" height="50px;" alt="PLAN" />
+                <img src="images/icon/uat.png" width="50px;" height="50px;" alt="PLAN" />
     <br />UAT</a></td>
 <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/linux.png" width="50px;" height="50px;" alt="PLAN" />
