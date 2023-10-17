@@ -23,53 +23,53 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/jama.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">REQM</span></a></td>
+    <br /><span style="font-size: 3px;">REQM</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/pivotal-tracker.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">ProgM</span></a></td>
+    <br /><span style="font-size: 3px;">ProgM</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/design.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 5px;">Design</span></a></td>
+    <br /><span style="font-size: 3px;">Design</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/spark.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">Frameworks</span></a></td>
+    <br /><span style="font-size: 3px;">Frameworks</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/git.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 5px;">SCM/VCS</span></a></td>
+    <br /><span style="font-size: 3px;">SCM/VCS</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/packer.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">PackageMgnt</span></a></td>
+    <br /><span style="font-size: 3px;">PackageMgnt</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/Junit.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">UnitTesting</span></a></td>
+    <br /><span style="font-size: 3px;">UnitTesting</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/selenium.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">IntegrationTesting</span></a></td>
+    <br /><span style="font-size: 3px;">IntegrationTesting</span></a></td>
 
   </tr>
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/risk.png"  width="50px;" height="50px;" alt="PLAN" />=
-    <br /><span style="font-size: 5px;">RiskMgnt</span></a></td>
+    <br /><span style="font-size: 3px;">RiskMgnt</span></a></td>
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/programming.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 5px;">General</span></a></td>
+    <br /><span style="font-size: 3px;">General</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/python.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 5px;">Programming</span></a></td>
+    <br /><span style="font-size: 3px;">Programming</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/databases.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">DBMgmt</span></a></td>
+    <br /><span style="font-size: 3px;">DBMgmt</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/maven.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">DependencyMgnt</span></a></td>
+    <br /><span style="font-size: 3px;">DependencyMgnt</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/system_testing.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">SystemTesting</span></a></td>
+    <br /><span style="font-size: 3px;">SystemTesting</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
                 <img src="images/icon/uat.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">UAT</span></a></td>
+    <br /><span style="font-size: 3px;">UAT</span></a></td>
   </tr>
   <tr>
     <td align="center" width="60px;"> </td>
@@ -78,21 +78,21 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/vscode.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">Compile</span></a></td>
+    <br /><span style="font-size: 3px;">Compile</span></a></td>
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/jmeter.svg"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">PT</span></a></td>
+    <br /><span style="font-size: 3px;">PT</span></a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/security.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 5px;">SecurityTesting</span></a></td>
+    <br /><span style="font-size: 3px;">SecurityTesting</span></a></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 85%;">
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
     <b>PLAN</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 85%;">
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
     <b>CODE</b></a></td>
-    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 85%;">
+    <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
     <b>BUILD</b></a></td>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
     <b><span style="font-size: 10px;">TEST</span></b></a></td>
