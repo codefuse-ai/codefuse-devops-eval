@@ -236,15 +236,6 @@ python folder2/src/run_eval.py \
 <br>
 <br>
 
-## Licenses
-
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
-本项目遵循 [MIT License](https://lbesson.mit-license.org/).
-
-<br>
-<br>
-
 ## 引用
 
 如果您使用了我们的数据集，请引用我们的论文。
