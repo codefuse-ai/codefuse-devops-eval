@@ -42,7 +42,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
         <img src="images/icon/programming.png" width="50px;" height="50px;" alt="PLAN" /> 
-    <br />GeneralKnowledge</a></td>
+    <br />General</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
         <img src="images/icon/python.png" width="50px;" height="50px;" alt="PLAN" /> 
     <br />Programming</a></td>
@@ -97,7 +97,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br />SystemTesting</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
                 <img src="images/icon/UAT.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />UserAcceptanceTesting</a></td>
+    <br />UAT</a></td>
 <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/linux.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Linux</a></td>
@@ -140,8 +140,9 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
             <img src="images/icon/logging.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Data</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-            <img src="images/icon/grafana.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />Visualization</a></td>
+                <img src="images/icon/prometheus.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />Alert</a></td>
+    <td align="center" width="60px;"> </td>
   </tr>
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
@@ -149,11 +150,12 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br />OperateSecne</a></td>
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
-                <img src="images/icon/prometheus.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />Alert</a></td>
+            <img src="images/icon/grafana.png" width="50px;" height="50px;" alt="PLAN" />
+    <br />Visualization</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/observability.png" width="50px;" height="50px;" alt="PLAN" />
     <br />Analysis</a></td>
+    <td align="center" width="60px;"> </td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
