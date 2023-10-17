@@ -77,7 +77,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br />UnitTesting</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/selenium.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />IntegrationTesting</a></td>
+    <br />IT</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/cicd.png" width="50px;" height="50px;" alt="PLAN" />
     <br />CI/CD</a></td>
@@ -104,7 +104,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center" width="60px;"> </td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/cloud.png" width="50px;" height="50px;" alt="PLAN" />
-    <br />Cloud/IaaS/PaaS</a></td>
+    <br />Cloud</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/infrastructure_as_code.svg" width="50px;" height="50px;" alt="PLAN" />
     <br />IAC</a></td>
@@ -112,7 +112,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   <tr>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/jmeter.svg" width="50px;" height="50px;" alt="PLAN" />
-    <br />PerformanceTesting</a></td>
+    <br />PT</a></td>
     <td align="center" width="60px;"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
             <img src="images/icon/security.png" width="50px;" height="50px;" alt="PLAN" />
     <br />SecurityTesting</a></td>
