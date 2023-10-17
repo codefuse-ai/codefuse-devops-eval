@@ -66,7 +66,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><span style="font-size: 8px;">DepMgmt</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/system_testing.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 8px;">SystemTesting</span></a></td>
+    <br /><span style="font-size: 8px;">SysTesting</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
                 <img src="images/icon/uat.png"  width="50px;" height="50px;" alt="PLAN" />
     <br /><span style="font-size: 8px;">UAT</span></a></td>
@@ -85,7 +85,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><span style="font-size: 8px;">PT</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/security.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 8px;">SecurityTesting</span></a></td>
+    <br /><span style="font-size: 8px;">SecTest</span></a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
