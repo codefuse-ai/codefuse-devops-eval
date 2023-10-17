@@ -44,7 +44,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><span style="font-size: 8px;">UnitTesting</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/selenium.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br /><span style="font-size: 8px;">IntegrationTesting</span></a></td>
+    <br /><span style="font-size: 8px;">IntTesting</span></a></td>
 
   </tr>
   <tr>
@@ -57,7 +57,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><span style="font-size: 8px;">General</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
         <img src="images/icon/python.png"  width="50px;" height="50px;" alt="PLAN" /> 
-    <br /><span style="font-size: 8px;">Programming</span></a></td>
+    <br /><span style="font-size: 8px;">Prog</span></a></td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/databases.png"  width="50px;" height="50px;" alt="PLAN" />
     <br /><span style="font-size: 8px;">DBMgmt</span></a></td>
