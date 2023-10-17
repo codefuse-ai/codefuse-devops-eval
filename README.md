@@ -167,6 +167,8 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <br /><b>OPERATE</b></a></td>
     <td colspan="2" align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 80%;">
     <br /><b>MONITOR</b></a></td>
+    <td colspan="2" align="center">
+    <br /></td>
   </tr>
 </table>
 </center>
