@@ -39,7 +39,9 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 - [Citation](#citation)
 
 ## Leaderboard
-Zero Shot
+Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release。 We note that zero-shot performance is better than five-shot for many instruction-tuned models.
+
+#### Zero Shot
 
 | **ModelName**          | plan  | code  | build | test  | release | deploy | operate | monitor | **Score** |
 |------------------------|-------|-------|-------|-------|---------|--------|---------|---------|-----------|
@@ -59,7 +61,7 @@ Zero Shot
 | Internlm-7B-Base       | 54.55 | 58.29 | 79.36 | 78.95 | 77.83   | 70.59  | 78.36   | 75.93   | 66.91 |
 
 
-Five Shot
+#### Five Shot
 
 | **ModelName**          | plan  | code  | build | test  | release | deploy | operate | monitor | **Score** |
 | --- | ---  | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -275,9 +277,12 @@ python folder2/src/run_eval.py \
 <br>
 
 ## TODO
+- [x] add AIOps samples
 <br>
 <br>
 
+
+## Licenses
 
 ## Citation
 

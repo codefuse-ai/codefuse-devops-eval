@@ -30,7 +30,9 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 - [引用](#引用)
 
 ## 排行榜
-Zero Shot
+Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release。 We note that zero-shot performance is better than five-shot for many instruction-tuned models.
+
+#### Zero Shot
 
 | **模型**                 | plan  | code  | build | test  | release | deploy | operate | monitor | **得分**    |
 |------------------------| --- | --- | --- | --- | --- | --- | --- | --- |-----------|
@@ -50,7 +52,7 @@ Zero Shot
 | Internlm-7B-Base       |  54.55 | 58.29 | 79.36 | 78.95 | 77.83 | 70.59 | 78.36 | 75.93 | 66.91     |
 
 
-Five Shot
+#### Five Shot
 
 | **模型**                 | plan  | code  | build | test  | release | deploy | operate | monitor | **得分**    |
 | --- | ---  | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -267,8 +269,11 @@ python folder2/src/run_eval.py \
 <br>
 
 ## TODO
+- [x] 添加AIOps样本
 <br>
 <br>
+
+## Licenses
 
 ## 引用
 
