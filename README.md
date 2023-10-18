@@ -18,7 +18,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 
 :bar_chart: &nbsp;There are currently **2650** exercises and questions
 
-<p align="center"> <img src="images/data_info.png" style="width: 100%;" id="data_info">       </p>
+<p align="center"> <a href="images/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 

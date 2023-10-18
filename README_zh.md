@@ -11,8 +11,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
-<img src="images/devops_diagram_zh.jpg" style="zoom: 80%;" >
-
+<p align="center"> <a href="images/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 ## 更新
 
