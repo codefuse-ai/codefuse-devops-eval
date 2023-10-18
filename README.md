@@ -25,7 +25,6 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 ## 📜 Table of Contents
 
 - [🏆 Leaderboard](#-leaderboard)
-- [🛠️ Results On Validation Split](#-results-on-validation-split)
 - [⏬ Data](#-data)
 - [🚀 How to Evaluate](#-how-to-evaluate)
 - [🧭 TODO](#-todo)
@@ -73,12 +72,6 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 | Internlm-7B-Chat |  60.61 | 63.06 | 79.82 | 80.26 | 67.92 | 75.69 | 73.88 | 77.31 | 71.09 |
 | Baichuan2-7B-Chat |  60.61 | 64.95 | 81.19 | 75.88 | 71.23 | 75.69 | 78.36 | 79.17 | 70.49 |
 | Internlm-7B-Base |  62.12 | 65.25 | 77.52 | 80.7 | 74.06 | 78.82 | 79.85 | 75.46 | 69.17 |
-
-
-## 🛠️ Results On Validation Split
-coming soon
-<br>
-<br>
 
 ## ⏬ Data
 #### Download
