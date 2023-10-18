@@ -19,7 +19,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 :bar_chart: &nbsp;There are currently **2650** exercises and questions
 
 <center>
-<table style="width: 100%; height: 100%;">
+<table style="height: 100%;">
   <tr>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/jama.png"  width="50px;" height="50px;" alt="PLAN" />
