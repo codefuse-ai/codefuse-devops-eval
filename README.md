@@ -32,7 +32,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 - [😃 Citation](#-citation)
 
 ## 🏆 Leaderboard
-Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that zero-shot performance is better than five-shot for many instruction-tuned models.
+Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that five-shot performance is better than zero-shot for many instruction-tuned models.
 
 #### Zero Shot
 
