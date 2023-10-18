@@ -1,7 +1,7 @@
 <p align="center"> <img src="images/logo.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
-  🤗 <a href="https://huggingface.co/datasets/DevOps-Eval/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">数据</a> • 📖 <a href="resources/tutorial.md" target="_blank">教程</a>
+  🤗 <a href="https://huggingface.co/datasets/codefuse-admin/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">数据</a> • 📖 <a href="resources/tutorial.md" target="_blank">教程</a>
   <br>
   <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README.md"> English</a> | <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README_zh.md"> 中文 </a>
 </p>
@@ -10,7 +10,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
-<p align="center"> <a href="images/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
+<p align="center"> <a href="resource/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 ## 更新
 
@@ -79,7 +79,7 @@ coming soon
 #### 下载
 * 方法一：下载zip压缩文件（你也可以直接用浏览器打开下面的链接）：
   ```
-  wget https://huggingface.co/datasets/DevOps-Eval/devopseval-exam/resolve/main/data.zip
+  wget https://huggingface.co/datasets/codefuse-admin/devopseval-exam/resolve/main/data.zip
   ```
   然后可以使用 pandas加载数据：
 
@@ -98,7 +98,7 @@ coming soon
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### 说明
-为了方便使用，我们已经整理出了 49 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/category_mapping.json) 。格式如下：
+为了方便使用，我们已经整理出了 49 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resource/category_mapping.json) 。格式如下：
 
 ```
 {
