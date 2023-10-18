@@ -6,37 +6,34 @@
   <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README_zh.md">   中文</a> | <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README.md"> English </a>
 </p>
 
-DevOps-Eval is a comprehensive evaluation suite specifically designed for foundation models in the DevOps field. It consists of xxxx multi-choice questions spanning 8 diverse disciplines, as shown below.
-
-We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
+DevOps-Eval is a comprehensive evaluation suite specifically designed for foundation models in the DevOps field. We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
 
+📚 This repo contains questions and exercises related to DevOps and AIOps.
 
-:pencil: &nbsp;This repo contains questions and exercises related to DevOps and AIOps
-
-:bar_chart: &nbsp;There are currently **2650** exercises and questions
+🔥️ There are currently **2650** multiple-choice questions spanning 8 diverse disciplines, as shown [below](images/data_info.png).
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 
-## News
+## 🔔 News
 
 * **[2023.10.18]** DevOps-Eval Update the Leaderboard...
 <br>
 <br>
 
-## Table of Contents
+## 📜 Table of Contents
 
-- [Leaderboard](#leaderboard)
-- [Results On Validation Split](#results-on-validation-split)
-- [Data](#data)
-- [How to Evaluate](#how-to-evaluate)
-- [TODO](#todo)
-- [Licenses](#licenses)
-- [Citation](#citation)
+- [🏆 Leaderboard](#leaderboard)
+- [🛠️ Results On Validation Split](#results-on-validation-split)
+- [⏬ Data](#data)
+- [🚀 How to Evaluate](#how-to-evaluate)
+- [🧭 TODO](#todo)
+- [🏁 Licenses](#licenses)
+- [😃 Citation](#citation)
 
-## Leaderboard
+## 🏆 Leaderboard
 Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that zero-shot performance is better than five-shot for many instruction-tuned models.
 
 #### Zero Shot
@@ -84,7 +81,7 @@ coming soon
 <br>
 <br>
 
-## Data
+## ⏬ Data
 #### Download
 * Method 1: Download the zip file (you can also simply open the following link with the browser):
   ```
@@ -142,7 +139,7 @@ explanation:
 git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改的文件列表。参数--name-only让命令只输出文件名，而忽略其他信息。其它选项中的命令并不能实现此功能。
 ```
 
-## How to Evaluate
+## 🚀 How to Evaluate
 If you need to test your own huggingface-formatted model, the overall steps are as follows:
 1. Write the loader function for the model.
 2. Write the context_builder function for the model.
@@ -274,15 +271,17 @@ python folder2/src/run_eval.py \
 ```
 <br>
 
-## TODO
+## 🧭 TODO
 - [ ] add AIOps samples
 <br>
 <br>
 
 
-## Licenses
+## 🏁 Licenses
+<br>
+<br>
 
-## Citation
+## 😃 Citation
 
 Please cite our paper if you use our dataset.
 <br>
