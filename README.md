@@ -16,7 +16,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 
 :bar_chart: &nbsp;There are currently **2650** exercises and questions
 
-<p align="center"> <a href="resource/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
+<p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 
@@ -106,7 +106,7 @@ coming soon
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### Notes
-To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resource/category_mapping.json) for details. The format is:
+To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resources/category_mapping.json) for details. The format is:
 
 ```
 {

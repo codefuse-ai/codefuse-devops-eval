@@ -10,7 +10,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
-<p align="center"> <a href="resource/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
+<p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 ## 更新
 
@@ -98,7 +98,7 @@ coming soon
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### 说明
-为了方便使用，我们已经整理出了 49 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resource/category_mapping.json) 。格式如下：
+为了方便使用，我们已经整理出了 49 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resources/category_mapping.json) 。格式如下：
 
 ```
 {
