@@ -1,6 +1,4 @@
-<p align="center"> <img src="images/DevOps-Eval Logo.png" style="width: 50%;" id="title-icon">       </p>
-
-# <p align="center">A DevOps Domain Knowledge Evaluation Benchmark for Large Language Models</p>
+<p align="center"> <img src="images/logo.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
   🤗 <a href="https://huggingface.co/datasets/DevOps-Eval/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">Data</a> • 📖 <a href="resources/tutorial.md" target="_blank">Tutorial (ZH)</a>
@@ -39,7 +37,7 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 - [Citation](#citation)
 
 ## Leaderboard
-Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release。 We note that zero-shot performance is better than five-shot for many instruction-tuned models.
+Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that zero-shot performance is better than five-shot for many instruction-tuned models.
 
 #### Zero Shot
 
