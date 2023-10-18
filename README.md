@@ -21,7 +21,6 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 * **[2023.10.18]** DevOps-Eval Update the Leaderboard...
 <br>
-<br>
 
 ## 📜 Table of Contents
 

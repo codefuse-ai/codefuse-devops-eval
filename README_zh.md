@@ -6,29 +6,32 @@
   <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README.md"> English</a> | <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README_zh.md"> 中文 </a>
 </p>
 
-DevOps-Eval is a comprehensive evaluation suite specifically designed for foundation models in the DevOps field. It consists of xxxx multi-choice questions spanning 8 diverse disciplines, as shown below.
+DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集。我们希望DevOps-Eval能够帮助开发者，尤其是DevOps领域的开发者，追踪进展并分析他们拥有的DevOps大模型的优势和不足之处。
 
-We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
+📚 该仓库包含与DevOps和AIOps相关的问题和练习。
+
+🔥️ 目前有 2650 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
+
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
-## 更新
+
+## 🔔 更新
 
 * **[2023.10.18]** DevOps-Eval发布大模型评测排行版
 <br>
-<br>
 
-## 目录
+## 📜 目录
 
-- [排行榜](#排行榜)
-- [验证集结果](#验证集结果)
-- [数据](#数据)
-- [如何进行测试](#如何进行测试)
-- [TODO](#todo)
-- [Licenses](#licenses)
-- [引用](#引用)
+- [🏆 排行榜](#排行榜)
+- [🛠️ 验证集结果](#验证集结果)
+- [⏬ 数据](#数据)
+- [🚀 如何进行测试](#如何进行测试)
+- [🧭 TODO](#todo)
+- [🏁 Licenses](#licenses)
+- [😃 引用](#引用)
 
-## 排行榜
+## 🏆 排行榜
 Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that zero-shot performance is better than five-shot for many instruction-tuned models.
 
 #### Zero Shot
@@ -70,12 +73,12 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 | Baichuan2-7B-Chat |  60.61 | 64.95 | 81.19 | 75.88 | 71.23 | 75.69 | 78.36 | 79.17 | 70.49 |
 | Internlm-7B-Base |  62.12 | 65.25 | 77.52 | 80.7 | 74.06 | 78.82 | 79.85 | 75.46 | 69.17 |
 
-## 验证集结果
+## 🛠️ 验证集结果
 coming soon
 <br>
 <br>
 
-## 数据
+## ⏬ 数据
 #### 下载
 * 方法一：下载zip压缩文件（你也可以直接用浏览器打开下面的链接）：
   ```
@@ -133,7 +136,7 @@ explanation:
 git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改的文件列表。参数--name-only让命令只输出文件名，而忽略其他信息。其它选项中的命令并不能实现此功能。
 ```
 
-## 如何进行测试
+## 🚀 如何进行测试
 如果需要在自己的 huggingface 格式的模型上进行测试的话，总的步骤分为如下几步:
 1. 编写 Model 的 loader 函数
 2. 编写 Model 的 context_builder 函数
@@ -267,14 +270,15 @@ python folder2/src/run_eval.py \
 ```
 <br>
 
-## TODO
+## 🧭 TODO
 - [ ] 添加AIOps样本
 <br>
 <br>
 
-## Licenses
+## 🏁 Licenses
+<br>
 
-## 引用
+## 😃 引用
 
 如果您使用了我们的数据集，请引用我们的论文。
 <br>
