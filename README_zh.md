@@ -31,9 +31,43 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
 - [引用](#引用)
 
 ## 排行榜
-coming soon
-<br>
-<br>
+Zero-shot
+
+| **模型** | **参数量** | **得分** |
+| --- | --- | --- |
+| **DevOpsPal-14B-Chat** | **14B** | **80.34** |
+| **DevOpsPal-14B-Base** | **14B** | **80.26** |
+| Qwen-14B-Chat | 14B | 79.28 |
+| Qwen-14B-Base | 14B | 77.92 |
+| Baichuan2-13B-Base | 13B | 75.10 |
+| Baichuan2-13B-Chat | 13B | 74.60 |
+| **DevOpsPal-7B-Chat** | **7B** | **74.00** |
+| **DevOpsPal-7B-Base** | **7B** | **73.55** |
+| Qwen-7B-Base | 7B | 73.13 |
+| Qwen-7B-Chat | 7B | 71.96 |
+| Baichuan2-7B-Chat | 7B | 68.17 |
+| Internlm-7B-Chat | 7B | 68.08 |
+| Baichuan2-7B-Base | 7B | 67.51 |
+| Internlm-7B-Base | 7B | 66.91 |
+
+Five Shot
+
+| **模型** | **参数量** | **得分** |
+| --- | --- | --- |
+| **DevOpsPal-14B-Chat** | **14B** | **81.77** |
+| **DevOpsPal-14B-Base** | **14B** | **81.70** |
+| Qwen-14B-Chat | 14B | 79.55 |
+| Qwen-14B-Base | 14B | 79.51 |
+| Baichuan2-13B-Base | 13B | 77.09 |
+| Qwen-7B-Base | 7B | 77.02 |
+| Baichuan2-13B-Chat | 13B | 75.32 |
+| **DevOpsPal-7B-Chat** | **7B** | **75.25** |
+| **DevOpsPal-7B-Base** | **7B** | **75.17** |
+| Qwen-7B-Chat | 7B | 73.62 |
+| Baichuan2-7B-Base | 7B | 72.11 |
+| Internlm-7B-Chat | 7B | 71.09 |
+| Baichuan2-7B-Chat | 7B | 70.49 |
+| Internlm-7B-Base | 7B | 69.17 |
 
 ## 验证集结果
 coming soon
