@@ -127,19 +127,19 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
   <tr>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/linux.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br />Linux</a></td>
+    <br /><span style="font-size: 8px;">Linux</span></a></td>
     <td align="center"> </td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/cloud.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br />Cloud</a></td>
+    <br /><span style="font-size: 8px;">Cloud</span></a></td>
     <td align="center"> </td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/chaos_engineering.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br />OperateSecne</a></td>
+    <br /><span style="font-size: 8px;">OperateSence</span></a></td>
     <td align="center"> </td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/grafana.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br />Visualization</a></td>
+    <br /><span style="font-size: 8px;">Visualization</span></a></td>
     <td align="center"> </td>
   </tr>
   <tr>
@@ -147,13 +147,13 @@ We hope DevOps-Eval could help developers, especially in the DevOps field, track
     <td align="center"> </td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/infrastructure_as_code.svg"  width="50px;" height="50px;" alt="PLAN" />
-    <br />IAC</a></td>
+    <br /><span style="font-size: 8px;">IAC</span></a></td>
     <td align="center"> </td>
     <td align="center"> </td>
     <td align="center"> </td>
     <td align="center"><a src="images/devops_diagram_zh.jpg" style="zoom: 100%;">
             <img src="images/icon/observability.png"  width="50px;" height="50px;" alt="PLAN" />
-    <br />Analysis</a></td>
+    <br /><span style="font-size: 8px;">Analysis</span></a></td>
   </tr>
 
   <tr>
