@@ -87,7 +87,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   File_Dir="devopseval-exam"
   test_df=pd.read_csv(os.path.join(File_Dir,"test","UnitTesting.csv"))
   ```
-* Method 2: Directly load the dataset using [Hugging Face datasets](https://huggingface.co/datasets/DevOps-Eval/devopseval-exam):
+* Method 2: Directly load the dataset using [Hugging Face datasets](https://huggingface.co/datasets/codefuse-admin/devopseval-exam):
   ```python
   from datasets import load_dataset
   dataset=load_dataset(r"DevOps-Eval/devopseval-exam",name="UnitTesting")
@@ -95,7 +95,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### Notes
-To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](https://github.com/codefuse-ai/codefuse-devops-eval/resources/category_mapping.json) for details. The format is:
+To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
 
 ```
 {
