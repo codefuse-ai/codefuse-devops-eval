@@ -11,7 +11,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 📚 This repo contains questions and exercises related to DevOps and AIOps.
 
-🔥️ There are currently **2650** multiple-choice questions spanning 8 diverse disciplines, as shown [below](images/data_info.png).
+🔥️ There are currently **2650** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
@@ -95,7 +95,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### Notes
-To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 categories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
+To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 sub categories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
 
 ```
 {
@@ -114,7 +114,7 @@ To facilitate usage, we have organized the category name handlers and English/Ch
   ]
 }
 ```
-Each subject consists of two splits: dev and test.  The dev set per subject consists of five exemplars with explanations for few-shot evaluation. And the test set is for model evaluation. Labels on the test split are also released.
+Each sub category consists of two splits: dev and test.  The dev set per sub category consists of five exemplars with explanations for few-shot evaluation. And the test set is for model evaluation. Labels on the test split are also released.
 
 Below is a dev example from 'version control':
 
