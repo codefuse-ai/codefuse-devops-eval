@@ -1,4 +1,4 @@
-<p align="center"> <img src="images/logo.png" style="width: 100%;" id="title-icon">       </p>
+<p align="center"> <img src="images/devops_eval_logo.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
   🤗 <a href="https://huggingface.co/datasets/codefuse-admin/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">数据</a> • 📖 <a href="resources/tutorial.md" target="_blank">教程</a>

@@ -1,7 +1,4 @@
-<p align="center"> <img src="images/devops_eval_logo.jpg" style="width: 50%;" id="title-icon">       </p>
-
-# <p align="center">A DevOps Domain Knowledge Evaluation Benchmark for Large Language Models</p>
-
+<p align="center"> <img src="images/devops_eval_logo.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
   🤗 <a href="https://huggingface.co/datasets/codefuse-admin/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">Data</a> • 📖 <a href="resources/tutorial.md" target="_blank">Tutorial (ZH)</a>
