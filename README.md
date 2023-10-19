@@ -264,7 +264,10 @@ python folder2/src/run_eval.py \
 <br>
 
 ## 🧭 TODO
-- [ ] add AIOps samples
+- [ ] add AIOps samples.
+- [ ] increase in sample size.
+- [ ] add samples with the difficulty level set to hard.
+- [ ] add the English version of the samples.
 <br>
 <br>
 
