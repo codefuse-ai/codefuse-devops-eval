@@ -79,7 +79,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 #### Download
 * Method 1: Download the zip file (you can also simply open the following link with the browser):
   ```
-  wget https://huggingface.co/datasets/codefuse-admin/devopseval-exam/resolve/main/data.zip
+  wget https://huggingface.co/datasets/codefuse-admin/devopseval-exam/resolve/main/devopseval-exam.zip
   ```
   then unzip it and you may load the data with pandas:
   ```
@@ -97,7 +97,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 
-#### Notes
+#### 👀 Notes
 To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 53 subcategories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
 
 ```

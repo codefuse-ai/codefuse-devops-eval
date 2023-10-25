@@ -12,7 +12,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 🔥️ 目前有 4850 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
 
-💥 AIOps子类当前已有中英文样本2200例，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**和**根因分析。
+💥 AIOps子类当前已有中英文样本2200例，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**和**根因分析**。
 
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
@@ -79,7 +79,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 #### 下载
 * 方法一：下载zip压缩文件（你也可以直接用浏览器打开下面的链接）：
   ```
-  wget https://huggingface.co/datasets/codefuse-admin/devopseval-exam/resolve/main/data.zip
+  wget https://huggingface.co/datasets/codefuse-admin/devopseval-exam/resolve/main/devopseval-exam.zip
   ```
   然后可以使用 pandas加载数据：
 
@@ -97,7 +97,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
   
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
-#### 说明
+#### 👀 说明
 为了方便使用，我们已经整理出了 53 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](resources/categroy_mapping.json) 。格式如下：
 
 ```
