@@ -6,7 +6,7 @@
             "dev":5,
             "test":44
         },
-        "MONITOR"
+        "Visualization.csv"
     ],
     "Logging.csv":[
         "logging",
@@ -15,7 +15,7 @@
             "dev":5,
             "test":100
         },
-        "MONITOR"
+        "Logging.csv"
     ],
     "Storage.csv":[
         "storage",
@@ -24,7 +24,7 @@
             "dev":5,
             "test":36
         },
-        "MONITOR"
+        "Storage.csv"
     ],
     "DataAcquisition.csv":[
         "data acquisition",
@@ -33,7 +33,7 @@
             "dev":5,
             "test":36
         },
-        "MONITOR"
+        "DataAcquisition.csv"
     ],
     "IntegrationTesting.csv":[
         "integration testing",
@@ -42,7 +42,7 @@
             "dev":5,
             "test":31
         },
-        "TEST"
+        "IntegrationTesting.csv"
     ],
     "UserAcceptanceTesting.csv":[
         "user acceptance testing",
@@ -51,7 +51,7 @@
             "dev":5,
             "test":39
         },
-        "TEST"
+        "UserAcceptanceTesting.csv"
     ],
     "SecurityTesting.csv":[
         "security testing",
@@ -60,7 +60,7 @@
             "dev":5,
             "test":38
         },
-        "TEST"
+        "SecurityTesting.csv"
     ],
     "UnitTesting.csv":[
         "unit testing",
@@ -69,7 +69,7 @@
             "dev":5,
             "test":32
         },
-        "TEST"
+        "UnitTesting.csv"
     ],
     "PerformanceTesting.csv":[
         "performance testing",
@@ -78,7 +78,7 @@
             "dev":5,
             "test":36
         },
-        "TEST"
+        "PerformanceTesting.csv"
     ],
     "SystemTesting.csv":[
         "system testing",
@@ -87,7 +87,7 @@
             "dev":5,
             "test":52
         },
-        "TEST"
+        "SystemTesting.csv"
     ],
     "ProgM.csv":[
         "programme management",
@@ -96,7 +96,7 @@
             "dev":5,
             "test":21
         },
-        "PLAN"
+        "ProgM.csv"
     ],
     "REQM.csv":[
         "requirements management",
@@ -105,7 +105,7 @@
             "dev":5,
             "test":24
         },
-        "PLAN"
+        "REQM.csv"
     ],
     "RiskMgmt.csv":[
         "risk management",
@@ -114,7 +114,7 @@
             "dev":5,
             "test":21
         },
-        "PLAN"
+        "RiskMgmt.csv"
     ],
     "InfrastructureAsCode.csv":[
         "infrastructure as code",
@@ -123,7 +123,7 @@
             "dev":5,
             "test":34
         },
-        "DEPLOY"
+        "InfrastructureAsCode.csv"
     ],
     "Provisioning.csv":[
         "provisioning",
@@ -132,7 +132,7 @@
             "dev":5,
             "test":19
         },
-        "DEPLOY"
+        "Provisioning.csv"
     ],
     "ConfigMgmt.csv":[
         "config management",
@@ -141,7 +141,7 @@
             "dev":5,
             "test":100
         },
-        "DEPLOY"
+        "ConfigMgmt.csv"
     ],
     "Azure.csv":[
         "microsoft azure",
@@ -150,7 +150,7 @@
             "dev":5,
             "test":27
         },
-        "DEPLOY"
+        "Azure.csv"
     ],
     "GoogleCloud.csv":[
         "google cloud",
@@ -159,7 +159,7 @@
             "dev":5,
             "test":31
         },
-        "DEPLOY"
+        "GoogleCloud.csv"
     ],
     "AWS.csv":[
         "amazon web services",
@@ -168,7 +168,7 @@
             "dev":5,
             "test":44
         },
-        "DEPLOY"
+        "AWS.csv"
     ],
     "LogDesign.csv":[
         "log design",
@@ -177,7 +177,7 @@
             "dev":5,
             "test":33
         },
-        "CODE"
+        "LogDesign.csv"
     ],
     "ServiceDesign.csv":[
         "service design",
@@ -186,7 +186,7 @@
             "dev":5,
             "test":44
         },
-        "CODE"
+        "ServiceDesign.csv"
     ],
     "CapabilityDesign.csv":[
         "capability design",
@@ -195,7 +195,7 @@
             "dev":5,
             "test":33
         },
-        "CODE"
+        "CapabilityDesign.csv"
     ],
     "CloudNativeDesign.csv":[
         "cloud native design",
@@ -204,7 +204,7 @@
             "dev":5,
             "test":44
         },
-        "CODE"
+        "CloudNativeDesign.csv"
     ],
     "CacheDesign.csv":[
         "cache design",
@@ -213,7 +213,7 @@
             "dev":5,
             "test":28
         },
-        "CODE"
+        "CacheDesign.csv"
     ],
     "DBDesign.csv":[
         "database design",
@@ -222,7 +222,7 @@
             "dev":5,
             "test":38
         },
-        "CODE"
+        "DBDesign.csv"
     ],
     "ArtificialIntelligence.csv":[
         "artificial intelligence",
@@ -231,7 +231,7 @@
             "dev":5,
             "test":45
         },
-        "CODE"
+        "ArtificialIntelligence.csv"
     ],
     "ComputerBasics.csv":[
         "computer basics",
@@ -240,7 +240,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "ComputerBasics.csv"
     ],
     "DataBase.csv":[
         "database",
@@ -249,7 +249,7 @@
             "dev":5,
             "test":75
         },
-        "CODE"
+        "DataBase.csv"
     ],
     "ComputerNetwork.csv":[
         "computer network",
@@ -258,7 +258,7 @@
             "dev":5,
             "test":88
         },
-        "CODE"
+        "ComputerNetwork.csv"
     ],
     "OperatingSystem.csv":[
         "operating system",
@@ -267,7 +267,7 @@
             "dev":5,
             "test":36
         },
-        "CODE"
+        "OperatingSystem.csv"
     ],
     "Go.csv":[
         "go",
@@ -276,7 +276,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "Go.csv"
     ],
     "Java.csv":[
         "java",
@@ -285,7 +285,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "Java.csv"
     ],
     "C:C++.csv":[
         "c/c++",
@@ -294,7 +294,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "C:C++.csv"
     ],
     "Python.csv":[
         "python",
@@ -303,7 +303,7 @@
             "dev":5,
             "test":73
         },
-        "CODE"
+        "Python.csv"
     ],
     "BigData.csv":[
         "big data",
@@ -312,7 +312,7 @@
             "dev":5,
             "test":15
         },
-        "CODE"
+        "BigData.csv"
     ],
     "Front-end.csv":[
         "front-end",
@@ -321,7 +321,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "Front-end.csv"
     ],
     "MobileApp.csv":[
         "mobile app",
@@ -330,7 +330,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "MobileApp.csv"
     ],
     "MachineLearning.csv":[
         "machine learning",
@@ -339,7 +339,7 @@
             "dev":5,
             "test":69
         },
-        "CODE"
+        "MachineLearning.csv"
     ],
     "Back-end.csv":[
         "back-end",
@@ -348,7 +348,7 @@
             "dev":5,
             "test":100
         },
-        "CODE"
+        "Back-end.csv"
     ],
     "ArtifactMgmt.csv":[
         "artifact management",
@@ -357,7 +357,7 @@
             "dev":5,
             "test":12
         },
-        "RELEASE"
+        "ArtifactMgmt.csv"
     ],
     "CI:CD.csv":[
         "cd/cd",
@@ -366,7 +366,7 @@
             "dev":5,
             "test":100
         },
-        "RELEASE"
+        "CI:CD.csv"
     ],
     "Linux.csv":[
         "linux",
@@ -375,7 +375,7 @@
             "dev":5,
             "test":100
         },
-        "RELEASE"
+        "Linux.csv"
     ],
     "ContainerOrchestration.csv":[
         "container orchestration",
@@ -384,7 +384,7 @@
             "dev":5,
             "test":100
         },
-        "OPERATE"
+        "ContainerOrchestration.csv"
     ],
     "Virtualization.csv":[
         "virtualization",
@@ -393,7 +393,43 @@
             "dev":5,
             "test":34
         },
-        "OPERATE"
+        "Virtualization.csv"
+    ],
+    "TimeSeriesAnomalyDetection.csv":[
+        "time series anomaly detection",
+        "时序异常检测",
+        {
+            "dev":5,
+            "test":300
+        },
+        "TimeSeriesAnomalyDetection.csv"
+    ],
+    "TimeSeriesClassification.csv":[
+        "time series classification",
+        "时序分类",
+        {
+            "dev":5,
+            "test":200
+        },
+        "TimeSeriesClassification.csv"
+    ],
+    "RootCauseAnalysis.csv":[
+        "root cause analysis",
+        "根因分析",
+        {
+            "dev":5,
+            "test":250
+        },
+        "RootCauseAnalysis.csv"
+    ],
+    "LogParser.csv":[
+        "log parser",
+        "日志解析",
+        {
+            "dev":5,
+            "test":350
+        },
+        "LogParser.csv"
     ],
     "VersionControl.csv":[
         "version control",
@@ -402,7 +438,7 @@
             "dev":5,
             "test":100
         },
-        "BUILD"
+        "VersionControl.csv"
     ],
     "DBMgnt.csv":[
         "database management",
@@ -411,7 +447,7 @@
             "dev":5,
             "test":19
         },
-        "BUILD"
+        "DBMgnt.csv"
     ],
     "Dependency.csv":[
         "dependency",
@@ -420,7 +456,7 @@
             "dev":5,
             "test":44
         },
-        "BUILD"
+        "Dependency.csv"
     ],
     "Compile.csv":[
         "compile",
@@ -429,7 +465,7 @@
             "dev":5,
             "test":31
         },
-        "BUILD"
+        "Compile.csv"
     ],
     "Package.csv":[
         "package",
@@ -438,6 +474,6 @@
             "dev":5,
             "test":24
         },
-        "BUILD"
+        "Package.csv"
     ]
 }
