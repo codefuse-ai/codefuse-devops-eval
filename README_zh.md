@@ -10,14 +10,16 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 📚 该仓库包含与DevOps和AIOps相关的问题和练习。
 
-🔥️ 目前有 2650 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
+🔥️ 目前有 4850 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
+
+💥 AIOps子类当前已有中英文样本2200例，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**和**根因分析。
 
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 ## 🔔 更新
-
+* **[2023.10.25]** 增加AIOps样本，包含日志解析、时序异常检测、时序分类和根因分析
 * **[2023.10.18]** DevOps-Eval发布大模型评测排行版
 <br>
 
@@ -25,6 +27,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 - [🏆 排行榜](#-排行榜)
 - [⏬ 数据](#-数据)
+  - [👀 Notes](#-notes)
 - [🚀 如何进行测试](#-如何进行测试)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
@@ -95,7 +98,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 #### 说明
-为了方便使用，我们已经整理出了 49 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](resources/categroy_mapping.json) 。格式如下：
+为了方便使用，我们已经整理出了 53 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](resources/categroy_mapping.json) 。格式如下：
 
 ```
 {
@@ -265,7 +268,8 @@ python folder2/src/run_eval.py \
 <br>
 
 ## 🧭 TODO
-- [ ] 添加AIOps样本
+- [x] 添加AIOps样本
+- [ ] 添加AIOps场景，比如**时间预测**
 - [ ] 当前各类别样本量不平均，后续进一步增加样本数量
 - [ ] 增加困难程度的样本集
 - [ ] 增加样本的英文版本

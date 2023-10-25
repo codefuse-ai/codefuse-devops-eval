@@ -9,23 +9,25 @@
 DevOps-Eval is a comprehensive evaluation suite specifically designed for foundation models in the DevOps field. We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
 
-📚 This repo contains questions and exercises related to DevOps and AIOps.
+📚 This repo contains questions and exercises related to DevOps, including the AIOps.
 
-🔥️ There are currently **2650** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
+🔥️ There are currently **4850** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
+
+💥 There are a total of **2200** samples in the AIOps subcategory, covering scenarios such as **log parsing**, **time series anomaly detection**, **time series classification**, **and root cause analysis**.
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
-
 ## 🔔 News
-
-* **[2023.10.18]** DevOps-Eval Update the Leaderboard...
+* **[2023.10.25]** Add the AIOps samples, including log parsing, time series anomaly detection, time series classification and root cause analysis.
+* **[2023.10.18]** Update the initial Leaderboard...
 <br>
 
 ## 📜 Table of Contents
 
 - [🏆 Leaderboard](#-leaderboard)
 - [⏬ Data](#-data)
+  - [👀 Notes](#-notes)
 - [🚀 How to Evaluate](#-how-to-evaluate)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
@@ -94,8 +96,9 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
+
 #### Notes
-To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 49 sub categories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
+To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 53 subcategories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
 
 ```
 {
@@ -114,7 +117,7 @@ To facilitate usage, we have organized the category name handlers and English/Ch
   ]
 }
 ```
-Each sub category consists of two splits: dev and test.  The dev set per sub category consists of five exemplars with explanations for few-shot evaluation. And the test set is for model evaluation. Labels on the test split are also released.
+Each subcategory consists of two splits: dev and test.  The dev set per subcategory consists of five exemplars with explanations for few-shot evaluation. And the test set is for model evaluation. Labels on the test split are also released.
 
 Below is a dev example from 'version control':
 
@@ -264,7 +267,8 @@ python folder2/src/run_eval.py \
 <br>
 
 ## 🧭 TODO
-- [ ] add AIOps samples.
+- [x] add AIOps samples.
+- [ ] add AIOps scenario **time series forecasting**.
 - [ ] increase in sample size.
 - [ ] add samples with the difficulty level set to hard.
 - [ ] add the English version of the samples.
@@ -279,5 +283,7 @@ python folder2/src/run_eval.py \
 ## 😃 Citation
 
 Please cite our paper if you use our dataset.
+
+Coming soon...
 <br>
 <br>
