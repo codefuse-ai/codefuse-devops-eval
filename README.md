@@ -11,9 +11,9 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 📚 This repo contains questions and exercises related to DevOps, including the AIOps.
 
-🔥️ There are currently **4850** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
+💥️ There are currently **4850** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
 
-💥 There are a total of **2200** samples in the AIOps subcategory, covering scenarios such as **log parsing**, **time series anomaly detection**, **time series classification**, **and root cause analysis**.
+🔥 There are a total of **2200** samples in the AIOps subcategory, covering scenarios such as **log parsing**, **time series anomaly detection**, **time series classification**, **and root cause analysis**.
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
@@ -28,6 +28,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 - [🏆 Leaderboard](#-leaderboard)
 - [⏬ Data](#-data)
   - [👀 Notes](#-notes)
+  - [🔥 AIOps Sample Example](#-aiops-sample-example)
 - [🚀 How to Evaluate](#-how-to-evaluate)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
@@ -133,6 +134,29 @@ explanation:
 分析原因：
 git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改的文件列表。参数--name-only让命令只输出文件名，而忽略其他信息。其它选项中的命令并不能实现此功能。
 ```
+#### 🔥 AIOps Sample Example
+👀 👀 Taking log parsing as an example, here is a brief showcase of the AIOps samples:
+```
+id: 0
+question:
+Here are some running logs
+ 0 04:21:15,429 WARN Cannot open channel to 2 at election address /10.10.34.12:3888
+ 1 19:18:56,377 WARN ******* GOODBYE /10.10.34.11:52703 ********
+ 2 19:13:46,128 WARN ******* GOODBYE /10.10.34.11:52308 ********
+ 3 19:16:26,268 WARN ******* GOODBYE /10.10.34.11:52502 ********
+ 4 09:11:16,012 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+ 5 16:37:13,837 WARN Cannot open channel to 2 at election address /10.10.34.12:3888
+ 6 09:09:16,008 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+ 7 15:27:03,681 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+The first three parts of the log are index, timestamp, and log level. Without considering these three parts, Here we assume that the variables in the logs are represented as '<*>', separated by spaces between tokens. What is the specific log template for the above logs? 
+A: Notification time out: <*> 和 Connection broken for id <*>, my id = <*>, error =
+B: Send worker leaving thread 和 Connection broken for id <*>, my id = <*>, error =
+C: Received connection request /<*>:<*> 和 Interrupting SendWorker
+D: Cannot open channel to <*> at election address /<*>:<*> 和 ******* GOODBYE /<*>:<*> ********
+answer: D
+explanation: The log includes the fixed template fragments "Cannot open channel to <> at election address /<>:<>" and "****** GOODBYE /<>:<> ********," both of which appear in option D. Meanwhile, the template fragments in the other options do not match the content in the log. Therefore, option D is the most consistent with the log template.
+```
+
 
 ## 🚀 How to Evaluate
 If you need to test your own huggingface-formatted model, the overall steps are as follows:

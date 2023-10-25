@@ -10,9 +10,9 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 📚 该仓库包含与DevOps和AIOps相关的问题和练习。
 
-🔥️ 目前有 4850 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
+💥 目前有 4850 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
 
-💥 AIOps子类当前已有中英文样本2200例，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**和**根因分析**。
+🔥 AIOps子类当前已有中英文样本2200例，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**和**根因分析**。
 
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
@@ -27,7 +27,8 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 - [🏆 排行榜](#-排行榜)
 - [⏬ 数据](#-数据)
-  - [👀 Notes](#-notes)
+  - [👀 说明](#-说明)
+  - [🔥 AIOps样本示例](#-AIOps样本示例)
 - [🚀 如何进行测试](#-如何进行测试)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
@@ -132,6 +133,29 @@ explanation:
 分析原因：
 git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改的文件列表。参数--name-only让命令只输出文件名，而忽略其他信息。其它选项中的命令并不能实现此功能。
 ```
+#### 🔥 AIOps样本示例
+👀 🔥 此处以日志解析为例，对AIOps样本做一些简要的展示:
+```
+id: 0
+question:
+下面是一些运行日志
+ 0 04:21:15,429 WARN Cannot open channel to 2 at election address /10.10.34.12:3888
+ 1 19:18:56,377 WARN ******* GOODBYE /10.10.34.11:52703 ********
+ 2 19:13:46,128 WARN ******* GOODBYE /10.10.34.11:52308 ********
+ 3 19:16:26,268 WARN ******* GOODBYE /10.10.34.11:52502 ********
+ 4 09:11:16,012 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+ 5 16:37:13,837 WARN Cannot open channel to 2 at election address /10.10.34.12:3888
+ 6 09:09:16,008 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+ 7 15:27:03,681 WARN Cannot open channel to 3 at election address /10.10.34.13:3888
+日志最前面三部分别为序号、时间戳和日志Level，在不考虑这三部分内容的情况下，此处我们设定日志的变量用'<*>'代替，token与token之间用空格分隔，那么请问上述日志的日志模版具体是什么？
+A: Notification time out: <*> 和 Connection broken for id <*>, my id = <*>, error =
+B: Send worker leaving thread 和 Connection broken for id <*>, my id = <*>, error =
+C: Received connection request /<*>:<*> 和 Interrupting SendWorker
+D: Cannot open channel to <*> at election address /<*>:<*> 和 ******* GOODBYE /<*>:<*> ********
+answer: D
+explanation: 根据日志中的内容，选项D是最符合日志模板的。日志中包含了"Cannot open channel to &lt;*&gt; at election address /&lt;*&gt;:&lt;*&gt;"和"******* GOODBYE /&lt;*&gt;:&lt;*&gt; ********"这两个固定的模板片段，它们都在选项D中出现了。同时，其他选项中的模板片段与日志中的内容不匹配。因此，选项D是最符合日志模板的。
+```
+
 
 ## 🚀 如何进行测试
 如果需要在自己的 HuggingFace 格式的模型上进行测试的话，总的步骤分为如下几步:
