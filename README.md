@@ -135,7 +135,9 @@ explanation:
 git diff --name-only SHA命令会显示与SHA参数对应的提交中已修改的文件列表。参数--name-only让命令只输出文件名，而忽略其他信息。其它选项中的命令并不能实现此功能。
 ```
 #### 🔥 AIOps Sample Example
-👀 👀 Taking log parsing as an example, here is a brief showcase of the AIOps samples:
+👀 👀 Taking **log parsing** and **time series anomaly detection** as examples, here is a brief showcase of the AIOps samples:
+
+LogParsing
 ```
 id: 0
 question:
@@ -155,6 +157,20 @@ C: Received connection request /<*>:<*> 和 Interrupting SendWorker
 D: Cannot open channel to <*> at election address /<*>:<*> 和 ******* GOODBYE /<*>:<*> ********
 answer: D
 explanation: The log includes the fixed template fragments "Cannot open channel to <> at election address /<>:<>" and "****** GOODBYE /<>:<> ********," both of which appear in option D. Meanwhile, the template fragments in the other options do not match the content in the log. Therefore, option D is the most consistent with the log template.
+```
+TimeSeriesAnomalyDetection
+```
+id: 0
+question:
+Analyze the following time series
+[50,62,74,84,92,97,99,98,94,87,77,65,265,40,28,17,8,3,0,0,4,10,20,31,43,56,68,79,89,95,99,99,96,91,82,71,59,46,34,22,12,5,1,0,2,7,15,25,37,49]
+Please identify the indices of obvious outlier points. Outlier points generally refer to points that significantly deviate from the overall trend of the data.
+A: 46
+B: 0
+C: 37
+D: 12
+answer: D
+explanation: According to the analysis, the value 265 in the given time series at 12 o'clock is significantly larger than the surrounding data, indicating a sudden increase phenomenon. Therefore, selecting option D is correct.
 ```
 
 
