@@ -253,8 +253,7 @@ python src/run_eval.py \
 
 
 ## 🏁 Licenses
-Coming Soon...
-
+This project is licensed under the [Apache License (Version 2.0)](LICENSE.md).
 <br>
 <br>
 
