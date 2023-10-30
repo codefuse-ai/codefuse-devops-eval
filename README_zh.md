@@ -39,6 +39,7 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 ## 🏆 排行榜
 以下是我们获得的初版评测结果，包括多个开源模型的zero-shot和five-shot准确率。我们注意到，对于大多数指令模型来说，five-shot的准确率要优于zero-shot。
 
+### DevOps
 #### Zero Shot
 
 | **模型**                 | plan  | code  | build | test  | release | deploy | operate | monitor |  **平均分**  |
