@@ -19,6 +19,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 
 ## 🔔 News
+* **[2023.10.30]** Add the AIOps Leaderboard.
 * **[2023.10.25]** Add the AIOps samples, including log parsing, time series anomaly detection, time series classification and root cause analysis.
 * **[2023.10.18]** Update the initial Leaderboard...
 <br>
@@ -38,7 +39,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 ## 🏆 Leaderboard
 Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that five-shot performance is better than zero-shot for many instruction-tuned models.
-### DevOps
+### 👀 DevOps
 #### Zero Shot
 
 |      **ModelName**       | plan  | code  | build |  test  | release  | deploy | operate | monitor  | **AVG** |
@@ -78,7 +79,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 | Baichuan2-7B-Chat |  60.61 | 64.95 | 81.19 | 75.88 | 71.23 | 75.69 | 78.36 | 79.17 | 70.49 |
 | Internlm-7B-Base |  62.12 | 65.25 | 77.52 | 80.7 | 74.06 | 78.82 | 79.85 | 75.46 | 69.17 |
 
-### AIOps
+### 🔥 AIOps
 #### Zero Shot
 |    **ModelName**    |  LogParsing  | RootCauseAnalysis  | TimeSeriesAnomalyDetection  | TimeSeriesClassification  | **AVG** |
 |:-------------------:|:------------:|:------------------:|:---------------------------:|:-------------------------:|:-------:|
