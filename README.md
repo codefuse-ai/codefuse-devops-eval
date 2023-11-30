@@ -19,7 +19,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 
 
 ## 🔔 News
-* **[2023.11.27]** Add 487 operation sense samples and 640 time series forecasting samples; Update the Leaderboard;
+* **[2023.11.27]** Add 487 operation scene samples and 640 time series forecasting samples; Update the Leaderboard;
 * **[2023.10.30]** Add the AIOps Leaderboard.
 * **[2023.10.25]** Add the AIOps samples, including log parsing, time series anomaly detection, time series classification and root cause analysis.
 * **[2023.10.18]** Update the initial Leaderboard...
