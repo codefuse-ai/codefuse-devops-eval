@@ -37,7 +37,9 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
 - [😃 Citation](#-citation)
-
+- [🗂 Miscellaneous](#-miscellaneous)
+  - [✨ Star History](#-star-history)
+  - [🤝 Friendship Links](#-friendship-links)
 ## 🏆 Leaderboard
 Below are zero-shot and five-shot accuracies from the models that we evaluate in the initial release. We note that five-shot performance is better than zero-shot for many instruction-tuned models.
 ### 👀 DevOps
@@ -306,3 +308,14 @@ Please cite our paper if you use our dataset.
 Coming Soon...
 <br>
 <br>
+
+## 🗂 Miscellaneous
+
+### ✨ Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=codefuse-ai/codefuse-devops-eval&type=Date)](https://star-history.com/#codefuse-ai/codefuse-devops-eval&Date)
+
+### 🤝 Friendship Links
+- [Codefuse-ChatBot](https://github.com/codefuse-ai/codefuse-chatbot)
+  - Codefuse-ChatBot is an open-source AI smart assistant designed to support the software development lifecycle with conversational access to tools, knowledge, and platform integration.
+- [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+  - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields.
