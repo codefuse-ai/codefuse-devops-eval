@@ -9,16 +9,19 @@
 DevOps-Eval is a comprehensive evaluation suite specifically designed for foundation models in the DevOps field. We hope DevOps-Eval could help developers, especially in the DevOps field, track the progress and analyze the important strengths/shortcomings of their models.
 
 
-📚 This repo contains questions and exercises related to DevOps, including the AIOps.
+📚 This repo contains questions and exercises related to DevOps, including the AIOps, ToolLearning;
 
-💥️ There are currently **5977** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
+💥️ There are currently **7486** multiple-choice questions spanning 8 diverse general categories, as shown [below](images/data_info.png).
 
 🔥 There are a total of **2840** samples in the AIOps subcategory, covering scenarios such as **log parsing**, **time series anomaly detection**, **time series classification**, **time series forecasting**, and **root cause analysis**.
+
+🔧 There are a total of **1509** samples in the ToolLearning subcategory, covering 239 tool scenes across 59 fields.
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 ## 🔔 News
+* **[2023.12.27]** Add 1509 **ToolLearning** samples, covering 239 tool categories across 59 fields; Release the associated evaluation leaderboard;
 * **[2023.11.27]** Add 487 operation scene samples and 640 time series forecasting samples; Update the Leaderboard;
 * **[2023.10.30]** Add the AIOps Leaderboard.
 * **[2023.10.25]** Add the AIOps samples, including log parsing, time series anomaly detection, time series classification and root cause analysis.
@@ -30,9 +33,11 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 - [🏆 Leaderboard](#-leaderboard)
   - [👀 DevOps](#-devops)
   - [🔥 AIOps](#-aiops)
+  - [🔧 ToolLearning](#-toollearning)
 - [⏬ Data](#-data)
   - [👀 Notes](#-notes)
   - [🔥 AIOps Sample Example](#-aiops-sample-example)
+  - [🔧 ToolLearning Sample Example](#-toollearning-sample-example)
 - [🚀 How to Evaluate](#-how-to-evaluate)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
@@ -83,6 +88,9 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 | Internlm-7B-Base | 62.12 | 65.25 | 77.52 | 80.7 | 74.06 | 78.82 | 63.45 | 75.46 | 67.17 |
 
 ### 🔥 AIOps
+
+<details>
+
 #### Zero Shot
 |    **ModelName**    |  LogParsing  | RootCauseAnalysis  | TimeSeriesAnomalyDetection  |         TimeSeriesClassification          |    TimeSeriesForecasting    | **AVG** |
 |:-------------------:|:------------:|:------------------:|:---------------------------:|:-----------------------------------------:|:---------------------------:|:-------:|
@@ -118,6 +126,29 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
 | DevOpsPal-7B—Chat | 56.57 | 27.2 | 25.33 | 41.5 | 33.44 | 37.46 |
 | Internlm-7B—Chat | 62.57 | 12.8 | 22.33 | 21 | 50.31 | 36.69 |
 | Internlm-7B—Base | 48 | 33.2 | 29 | 35 | 31.56 | 35.85 |
+
+</details>
+
+
+### 🔧 ToolLearning
+<details>
+
+| **FuncCall-Filler** | dataset_name | fccr | 1-fcffr | 1-fcfnr | 1-fcfpr | 1-fcfnir | aar |
+|:-------------------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|    Qwen-14b-chat    | luban | 98.37 | 99.73 | 99.86 | 98.78 | 100 | 81.58 |
+|    Qwen-7b-chat     | luban | 99.46 | 99.86 | 100 | 99.59 | 100 | 79.25 |
+|  Baichuan-7b-chat   | luban | 97.96 | 99.32 | 100 | 98.64 | 100 | 89.53 |
+|  Internlm-chat-7b   | luban | 94.29 | 95.78 | 100 | 98.5 | 100 | 88.19 |
+|    Qwen-14b-chat    | fc_data | 98.78 | 99.73 | 100 | 99.05 | 100 | 94.7 |
+|    Qwen-7b-chat     | fc_data | 98.1 | 99.87 | 99.73 | 98.5 | 100 | 93.14 |
+|  Baichuan-7b-chat   | fc_data | 98.91 | 99.87 | 99.87 | 99.18 | 100 | 89.5 |
+|  Internlm-chat-7b   | fc_data | 61 | 100 | 97.68 | 63.32 | 100 | 69.46 |
+|    CodeLLaMa-7b     | fc_data | 50.58 | 100 | 98.07 | 52.51 | 100 | 63.59 |
+|   CodeFuse-7b-16k   | fc_data | 60.23 | 100 | 97.3 | 62.93 | 99.61 | 61.12 |
+|   CodeFuse-7b-4k    | fc_data | 47.88 | 100 | 96.14 | 51.74 | 99.61 | 61.85 |
+
+
+</details>
 
 
 ## ⏬ Data
@@ -216,6 +247,9 @@ D: 12
 answer: D
 explanation: According to the analysis, the value 265 in the given time series at 12 o'clock is significantly larger than the surrounding data, indicating a sudden increase phenomenon. Therefore, selecting option D is correct.
 ```
+#### 🔧 ToolLearning Sample Example
+
+👀 👀The data format is compatible with OpenAI's Function Calling. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details.
 
 
 ## 🚀 How to Evaluate
@@ -289,6 +323,7 @@ python src/run_eval.py \
 ## 🧭 TODO
 - [x] add AIOps samples.
 - [x] add AIOps scenario **time series forecasting**.
+- [x] add **ToolLearning** samples.
 - [ ] increase in sample size.
 - [ ] add samples with the difficulty level set to hard.
 - [ ] add the English version of the samples.
