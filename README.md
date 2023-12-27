@@ -249,7 +249,9 @@ explanation: According to the analysis, the value 265 in the given time series a
 ```
 #### 🔧 ToolLearning Sample Example
 
-👀 👀The data format is compatible with OpenAI's Function Calling. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details.
+👀 👀The data format of ToolLearning samples is compatible with OpenAI's Function Calling. 
+
+Please refer to [tool_learning_info.md](resources/tool_learning_info.md) for details.
 
 
 ## 🚀 How to Evaluate
