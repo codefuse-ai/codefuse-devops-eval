@@ -82,6 +82,6 @@
 
 下面，我们定义了几种评估工具使用的指标：
 
-<p align="center"> <img src="images/images/toolLearning_performance_metrics.png" style="width: 100%;" id="title-icon">       </p>
+<img src="/Users/xujian/PycharmProjects/codefuse/codefuse-devops-eval-github/images/toolLearning_performance_metrics.png" style="width: 60%;" id="title-icon">
 
 ②③④⑤的和为1，代表工具调用失败的总数，⑤工具幻觉是工具名识别失败的一种特殊情况
