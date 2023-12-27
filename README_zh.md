@@ -8,18 +8,20 @@
 
 DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集。我们希望DevOps-Eval能够帮助开发者，尤其是DevOps领域的开发者，追踪进展并分析他们拥有的DevOps大模型的优势和不足之处。
 
-📚 该仓库包含与DevOps和AIOps相关的问题和练习。
+📚 该仓库包含与DevOps和AIOps相关的问题和练习, 还添加了关于ToolLearning相关的样本。
 
-💥 目前有 5977 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
+💥 目前有 **7486** 个多项选择题，根据DevOps的通用流程将其归纳未8个模块，如[下图](images/data_info.png)所示。
 
-🔥 2840，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**、**时序预测**和**根因分析**。
+🔥 AIOps样本总计 **2840** 个，覆盖的场景包括**日志解析**、**时序异常检测**、**时序分类**、**时序预测**和**根因分析**。
 
+🔧 ToolLearning样本 **1509** 个，涵盖59个领域，总计 239 种工具类别。
 
 <p align="center"> <a href="resources/devops_diagram_zh.jpg"> <img src="images/data_info.png" style="width: 100%;" id="data_info"></a></p>
 
 
 ## 🔔 更新
-* **[2023.11.27]** 增加运维场景样本487例、时序预测样本640例；同步更新评测排行版
+* **[2023.12.27]** 新增1509个ToolLearning样本，发布了相应的评测排行榜
+* **[2023.11.27]** 增加运维场景样本487例、时序预测样本640例；同步更新评测排行榜
 * **[2023.10.30]** 增加针对AIOps场景的评测排行榜
 * **[2023.10.25]** 增加AIOps样本，包含日志解析、时序异常检测、时序分类和根因分析
 * **[2023.10.18]** DevOps-Eval发布大模型评测排行版
@@ -30,13 +32,18 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 - [🏆 排行榜](#-排行榜)
   - [👀 DevOps](#-devops)
   - [🔥 AIOps](#-aiops)
+  - [🔧 ToolLearning](#-toollearning)
 - [⏬ 数据](#-数据)
   - [👀 说明](#-说明)
   - [🔥 AIOps样本示例](#-AIOps样本示例)
+  - [🔧 ToolLearning样本示例](#-toollearning样本示例)
 - [🚀 如何进行测试](#-如何进行测试)
 - [🧭 TODO](#-todo)
 - [🏁 Licenses](#-licenses)
 - [😃 引用](#-引用)
+- [🗂 Miscellaneous](#-miscellaneous)
+  - [✨ Star History](#-star-history)
+  - [🤝 Friendship Links](#-friendship-links)
 
 ## 🏆 排行榜
 以下是我们获得的初版评测结果，包括多个开源模型的zero-shot和five-shot准确率。我们注意到，对于大多数指令模型来说，five-shot的准确率要优于zero-shot。
@@ -83,6 +90,9 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 
 
 ### 🔥 AIOps
+
+<details>
+
 #### Zero Shot
 |    **模型**    | 日志解析  | 根因分析 | 时序异常检测 | 时序分类 | 时序预测  | **平均分** |
 |:-------------------:|:-----:|:----:|:------:|:----:|:-----:|:-------:|
@@ -118,6 +128,28 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 | DevOpsPal-7B—Chat | 56.57 | 27.2 | 25.33 | 41.5 | 33.44 | 37.46 |
 | Internlm-7B—Chat | 62.57 | 12.8 | 22.33 | 21 | 50.31 | 36.69 |
 | Internlm-7B—Base | 48 | 33.2 | 29 | 35 | 31.56 | 35.85 |
+
+</details>
+
+### 🔧 ToolLearning
+<details>
+
+| **FuncCall-Filler** | dataset_name | fccr | 1-fcffr | 1-fcfnr | 1-fcfpr | 1-fcfnir | aar |
+|:-------------------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|    Qwen-14b-chat    | luban | 98.37 | 99.73 | 99.86 | 98.78 | 100 | 81.58 |
+|    Qwen-7b-chat     | luban | 99.46 | 99.86 | 100 | 99.59 | 100 | 79.25 |
+|  Baichuan-7b-chat   | luban | 97.96 | 99.32 | 100 | 98.64 | 100 | 89.53 |
+|  Internlm-chat-7b   | luban | 94.29 | 95.78 | 100 | 98.5 | 100 | 88.19 |
+|    Qwen-14b-chat    | fc_data | 98.78 | 99.73 | 100 | 99.05 | 100 | 94.7 |
+|    Qwen-7b-chat     | fc_data | 98.1 | 99.87 | 99.73 | 98.5 | 100 | 93.14 |
+|  Baichuan-7b-chat   | fc_data | 98.91 | 99.87 | 99.87 | 99.18 | 100 | 89.5 |
+|  Internlm-chat-7b   | fc_data | 61 | 100 | 97.68 | 63.32 | 100 | 69.46 |
+|    CodeLLaMa-7b     | fc_data | 50.58 | 100 | 98.07 | 52.51 | 100 | 63.59 |
+|   CodeFuse-7b-16k   | fc_data | 60.23 | 100 | 97.3 | 62.93 | 99.61 | 61.12 |
+|   CodeFuse-7b-4k    | fc_data | 47.88 | 100 | 96.14 | 51.74 | 99.61 | 61.85 |
+
+</details>
+
 
 ## ⏬ 数据
 #### 下载
@@ -214,6 +246,10 @@ D: 12
 answer: D
 explanation: 根据分析，题目中的时间序列在12点出的值265要明显大于周围数据，存在着突增现象，因此选择D是正确的。
 ```
+#### 🔧 ToolLearning样本示例
+工具学习样本的数据格式与OpenAI的函数调用格式兼容。
+详情请参阅[tool_learning_info_zh.md](resources/tool_learning_info_zh.md)。
+<br>
 
 ## 🚀 如何进行测试
 如果需要在自己的 HuggingFace 格式的模型上进行测试的话，总的步骤分为如下几步:
@@ -283,6 +319,7 @@ python src/run_eval.py \
 ## 🧭 TODO
 - [x] 添加AIOps样本
 - [x] 添加AIOps场景，比如**时间预测**
+- [x] 增加 **ToolLearning** 样本
 - [ ] 当前各类别样本量不平均，后续进一步增加样本数量
 - [ ] 增加困难程度的样本集
 - [ ] 增加样本的英文版本
@@ -302,3 +339,15 @@ Coming soon...
 
 <br>
 <br>
+
+
+## 🗂 Miscellaneous
+
+### ✨ Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=codefuse-ai/codefuse-devops-eval&type=Date)](https://star-history.com/#codefuse-ai/codefuse-devops-eval&Date)
+
+### 🤝 Friendship Links
+- [Codefuse-ChatBot](https://github.com/codefuse-ai/codefuse-chatbot)
+  - Codefuse-ChatBot is an open-source AI smart assistant designed to support the software development lifecycle with conversational access to tools, knowledge, and platform integration.
+- [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+  - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields.
