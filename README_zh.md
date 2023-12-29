@@ -173,6 +173,12 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
   
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
+  
+* 方法三：使用modelscope下载相关所有数据。示例如下：
+  ```python
+  from modelscope.msdatasets import MsDataset
+  MsDataset.clone_meta(dataset_work_dir='./xxx', dataset_id='codefuse-ai/devopseval-exam')```
+  
 #### 👀 说明
 为了方便使用，我们已经整理出了 55 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](resources/categroy_mapping.json) 。格式如下：
 
@@ -247,8 +253,9 @@ answer: D
 explanation: 根据分析，题目中的时间序列在12点出的值265要明显大于周围数据，存在着突增现象，因此选择D是正确的。
 ```
 #### 🔧 ToolLearning样本示例
-工具学习样本的数据格式与OpenAI的函数调用格式兼容。
-详情请参阅[tool_learning_info_zh.md](resources/tool_learning_info_zh.md)。
+工具学习样本的数据格式与OpenAI的函数调用格式兼容。<br>
+详情请参阅[tool_learning_info_zh.md](resources/tool_learning_info_zh.md)。<br>
+工具学习评测过程，详情请参阅见 [tool_learning_evalution.md](resources/tool_learning_evalution.md)。<br>
 <br>
 
 ## 🚀 如何进行测试
