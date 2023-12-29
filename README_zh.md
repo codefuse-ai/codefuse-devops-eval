@@ -253,9 +253,9 @@ answer: D
 explanation: 根据分析，题目中的时间序列在12点出的值265要明显大于周围数据，存在着突增现象，因此选择D是正确的。
 ```
 #### 🔧 ToolLearning样本示例
-工具学习样本的数据格式与OpenAI的函数调用格式兼容。<br>
-详情请参阅[tool_learning_info_zh.md](resources/tool_learning_info_zh.md)。<br>
-工具学习评测过程，详情请参阅见 [tool_learning_evalution.md](resources/tool_learning_evalution.md)。<br>
+工具学习样本的数据格式与OpenAI的函数调用格式兼容。
+详情请参阅[tool_learning_info_zh.md](resources/tool_learning_info_zh.md)。
+工具学习评测过程，详情请参阅见 [tool_learning_evalution.md](resources/tool_learning_evalution.md)。
 <br>
 
 ## 🚀 如何进行测试
