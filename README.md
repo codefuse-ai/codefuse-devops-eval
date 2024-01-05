@@ -43,6 +43,7 @@ DevOps-Eval is a comprehensive evaluation suite specifically designed for founda
 - [🏁 Licenses](#-licenses)
 - [😃 Citation](#-citation)
 - [🗂 Miscellaneous](#-miscellaneous)
+  - [📱 Contact Us](#-contact-us)
   - [✨ Star History](#-star-history)
   - [🤝 Friendship Links](#-friendship-links)
 ## 🏆 Leaderboard
@@ -347,6 +348,11 @@ Coming Soon...
 <br>
 
 ## 🗂 Miscellaneous
+
+### 📱 Contact Us
+<div align=center>
+  <img src="resources/wechat.jpg" alt="图片", width="320">
+</div>
 
 ### ✨ Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=codefuse-ai/codefuse-devops-eval&type=Date)](https://star-history.com/#codefuse-ai/codefuse-devops-eval&Date)
