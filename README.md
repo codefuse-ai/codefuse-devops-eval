@@ -1,7 +1,7 @@
 <p align="center"> <img src="images/devops_eval_logo.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
-  🤗 <a href="https://huggingface.co/datasets/codefuse-admin/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#data" target="_blank">Data</a> • 📖 <a href="resources/tutorial.md" target="_blank">Tutorial</a>
+  🤗 <a href="https://huggingface.co/datasets/DevOps-Eval/devopseval-exam" target="_blank">Hugging Face</a> • ⏬ <a href="#-data" target="_blank">Data</a> • 📖 <a href="resources/tutorial.md" target="_blank">Tutorial</a>
   <br>
   <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README_zh.md">   中文</a> | <a href="https://github.com/codefuse-ai/codefuse-devops-eval/blob/main/README.md"> English </a>
 </p>
@@ -166,7 +166,7 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   File_Dir="devopseval-exam"
   test_df=pd.read_csv(os.path.join(File_Dir,"test","UnitTesting.csv"))
   ```
-* Method 2: Directly load the dataset using [Hugging Face datasets](https://huggingface.co/datasets/codefuse-admin/devopseval-exam):
+* Method 2: Directly load the dataset using [Hugging Face datasets](https://huggingface.co/datasets/DevOps-Eval/devopseval-exam):
   ```python
   from datasets import load_dataset
   dataset=load_dataset(r"DevOps-Eval/devopseval-exam",name="UnitTesting")
