@@ -351,7 +351,7 @@ Coming Soon...
 
 ### 📱 Contact Us
 <div align=center>
-  <img src="resources/wechat.jpg" alt="图片", width="320">
+  <img src="resources/wechat.png" alt="图片", width="320">
 </div>
 
 ### ✨ Star History
