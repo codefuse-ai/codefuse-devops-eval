@@ -1,6 +1,7 @@
 **/__pycache__
 .DS_Store
 data/
+!src/data/
 .pyc
 __pycache__
 start_job.py
