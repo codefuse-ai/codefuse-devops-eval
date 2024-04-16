@@ -174,6 +174,12 @@ Below are zero-shot and five-shot accuracies from the models that we evaluate in
   print(dataset['val'][0])
   # {"id": 1, "question": "单元测试应该覆盖以下哪些方面？", "A": "正常路径", "B": "异常路径", "C": "边界值条件"，"D": 所有以上，"answer": "D", "explanation": ""}  ```
 
+* Method 3: Directly load the datase t using [ModelScope datasets](https://modelscope.cn/datasets/codefuse-ai/devopseval-exam/files):
+  ```python
+  from modelscope.msdatasets import MsDataset
+  MsDataset.clone_meta(dataset_work_dir='./xxx', dataset_id='codefuse-ai/devopseval-exam')
+  ```
+
 #### 👀 Notes
 To facilitate usage, we have organized the category name handlers and English/Chinese names corresponding to 55 subcategories. Please refer to [category_mapping.json](resources/categroy_mapping.json) for details. The format is:
 
