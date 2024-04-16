@@ -177,7 +177,8 @@ DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集
 * 方法三：使用modelscope下载相关所有数据。示例如下：
   ```python
   from modelscope.msdatasets import MsDataset
-  MsDataset.clone_meta(dataset_work_dir='./xxx', dataset_id='codefuse-ai/devopseval-exam')```
+  MsDataset.clone_meta(dataset_work_dir='./xxx', dataset_id='codefuse-ai/devopseval-exam')
+  ```
   
 #### 👀 说明
 为了方便使用，我们已经整理出了 55 个细分类别以及它们的中英文名称。具体细节请查看 [category_mapping.json](resources/categroy_mapping.json) 。格式如下：
