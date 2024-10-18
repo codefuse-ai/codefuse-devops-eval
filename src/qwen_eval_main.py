@@ -28,7 +28,7 @@ datainfos = [
 save_path = ""
 
 
-for model_info in datainfos:
+for model_info in model_infos:
     print(f"******** model_name: {model_info['model_name']} *****")
     model_path = model_info["model_path"]
     peft_path = model_info["peft_path"]
